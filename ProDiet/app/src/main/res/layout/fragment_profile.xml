@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/profile_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Profile"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#070707"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/profile_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:focusable="true"
+        android:hint="Current Height"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/profile_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_height"
+        android:layout_alignEnd="@+id/profile_height"
+        android:layout_alignRight="@+id/profile_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Current Weight"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/profile_expect_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_weight"
+        android:layout_alignEnd="@+id/profile_weight"
+        android:layout_alignRight="@+id/profile_weight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Expect Weight"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/profile_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_expect_weight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#009688"
+        android:padding="5dp"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+</RelativeLayout>
