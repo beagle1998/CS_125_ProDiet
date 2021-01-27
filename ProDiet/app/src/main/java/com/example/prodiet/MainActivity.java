@@ -37,23 +37,31 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ////
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new ProfileFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_profile);
+                    new MainFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_main);
         }
         ////
     }
 
-    ////
+    //// For each individual case navigate to different fragment
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.nav_main:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new MainFragment()).commit();
+                break;
             case R.id.nav_profile:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ProfileFragment()).commit();
                 break;
-        case R.id.nav_info:
-            Toast.makeText(this, "Still empty!", Toast.LENGTH_SHORT).show();
-            break;
+            case R.id.nav_assessment:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new AssessmentFragment()).commit();
+                break;
+            case R.id.nav_info:
+                Toast.makeText(this, "Still empty!", Toast.LENGTH_SHORT).show();
+                break;
         }
 
         drawer.closeDrawer(GravityCompat.START);
