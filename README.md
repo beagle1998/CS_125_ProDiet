@@ -1,2 +1,9 @@
 # CS_125_Project
-CS_125_Project UCI
+
+## ProDiet
+
+### Team members
+- Tyler Mun
+- Jing Yang
+- Sally Huynh
+- Hoijong Kim

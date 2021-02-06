@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436428219333",
+    "project_id": "prodiet-dad1f",
+    "storage_bucket": "prodiet-dad1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436428219333:android:6c92fb095f21de07caa1ac",
+        "android_client_info": {
+          "package_name": "com.example.prodiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436428219333-u5tj8437vrkqafvc0bmko77n8d0bofk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC80XvII16fIxg_KkeUMvkls4hKFUvzN40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436428219333-u5tj8437vrkqafvc0bmko77n8d0bofk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
