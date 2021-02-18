@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="3dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+
+    <TextView
+        android:id="@+id/food_row_foodname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="          "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:id="@+id/food_row_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="          "
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+
+</LinearLayout>

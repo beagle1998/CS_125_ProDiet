@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light">
+    android:background="@android:color/holo_green_light"
+    tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/profile_title"
+        android:id="@+id/login_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -16,7 +18,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
-        android:text="Profile"
+        android:text="Login"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/black"
@@ -25,96 +27,80 @@
         android:typeface="serif" />
 
     <EditText
-        android:id="@+id/profile_height"
-        android:maxLength="6"
-        android:inputType="numberDecimal|number"
+        android:id="@+id/login_username"
+        android:maxLength="20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_title"
+        android:layout_below="@+id/login_title"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="5dp"
-        android:hint="height (in cm)"
+        android:hint="username"
         android:typeface="serif" />
 
     <EditText
-        android:id="@+id/profile_weight"
-        android:maxLength="6"
-        android:inputType="numberDecimal|number"
+        android:id="@+id/login_password"
+        android:maxLength="20"
+        android:inputType="textPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_height"
-        android:layout_alignEnd="@+id/profile_height"
-        android:layout_alignRight="@+id/profile_height"
+        android:layout_below="@+id/login_username"
+        android:layout_alignEnd="@+id/login_username"
+        android:layout_alignRight="@+id/login_username"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
-        android:hint="weight (in kg)"
+        android:hint="password"
         android:typeface="serif" />
-
-
-    <EditText
-        android:id="@+id/profile_birthyear"
-        android:maxLength="4"
-        android:inputType="number"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_weight"
-        android:layout_alignEnd="@+id/profile_weight"
-        android:layout_alignRight="@+id/profile_weight"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:hint="birth year"
-        android:typeface="serif" />
-
-
-    <EditText
-        android:id="@+id/profile_gender"
-        android:maxLength="10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_birthyear"
-        android:layout_alignEnd="@+id/profile_birthyear"
-        android:layout_alignRight="@+id/profile_birthyear"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:hint="gender"
-        android:typeface="serif" />
-
-    <CheckBox
-        android:id="@+id/profile_vegan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_gender"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:textColor="@android:color/black"
-        android:textSize="20sp"
-        android:text="Vegan?" />
 
     <Button
-        android:id="@+id/profile_update"
+        android:id="@+id/login_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_vegan"
+        android:layout_below="@+id/login_password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:background="#009688"
         android:padding="5dp"
-        android:text="Update"
+        android:text="Login"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         android:typeface="serif" />
 
+
+    <TextView
+        android:id="@+id/login_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="--- OR ---"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#009688"
+        android:padding="5dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
 
 </RelativeLayout>

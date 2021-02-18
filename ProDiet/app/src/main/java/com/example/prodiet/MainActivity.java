@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new AssessmentFragment()).commit();
                 break;
             case R.id.nav_info:
-                Toast.makeText(this, "Still empty!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "More features coming soon!", Toast.LENGTH_SHORT).show();
                 break;
         }
 
