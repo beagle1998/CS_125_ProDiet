@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light"
+    android:background="@android:color/white"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -143,7 +143,7 @@
         android:layout_below="@+id/register_vegan"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:background="#009688"
+        android:background="@android:color/black"
         android:padding="5dp"
         android:text="Sign Up"
         android:textColor="@android:color/white"
@@ -173,7 +173,7 @@
         android:layout_below="@+id/register_or"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:background="#009688"
+        android:background="@android:color/black"
         android:padding="5dp"
         android:text="Login"
         android:textColor="@android:color/white"

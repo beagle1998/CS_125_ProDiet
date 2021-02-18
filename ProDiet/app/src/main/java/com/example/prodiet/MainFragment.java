@@ -1,13 +1,12 @@
 package com.example.prodiet;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
+
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,7 +31,6 @@ public class MainFragment extends Fragment {
     private ArrayList<Food> food_list;
     private ListView main_recommend;
     private FoodListViewAdapter adapter;
-//    private Button test_button;
 
     @Nullable
     @Override

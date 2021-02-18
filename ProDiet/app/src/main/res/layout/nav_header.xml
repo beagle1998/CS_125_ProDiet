@@ -5,7 +5,7 @@
     android:layout_height="176dp"
     android:gravity="bottom"
 
-    android:background="@color/colorAccent"
+    android:background="@android:color/black"
     android:padding="20dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
     
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:text="ProDiet"
-        android:textColor="@color/colorText"></TextView>
+        android:textColor="@android:color/white"></TextView>
 
     
     <TextView
@@ -23,6 +23,6 @@
         android:layout_height="wrap_content"
         android:paddingTop="10dp"
         android:text="Let's eat healthier!"
-        android:textColor="@color/colorText"></TextView>
+        android:textColor="@android:color/white"></TextView>
 
 </LinearLayout>
