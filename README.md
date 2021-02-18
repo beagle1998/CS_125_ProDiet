@@ -2,8 +2,14 @@
 
 ## ProDiet
 
-### Team members
-- Tyler Mun
-- Jing Yang
-- Sally Huynh
-- Hoijong Kim
+### Project Info
+- Project Name: ProDiet
+- Group Number: 28
+- Group Name: ProDiet
+
+
+### Team Members
+- Tyler Mun: locate & process online data
+- Jing Yang: backend development
+- Sally Huynh: build model for recommendation & ranking
+- Hoijong Kim: UI desgin
