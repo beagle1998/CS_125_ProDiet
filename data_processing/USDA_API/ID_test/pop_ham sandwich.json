@@ -1,0 +1,330 @@
+{
+    "foodComponents": [],
+    "foodAttributes": [],
+    "foodPortions": [],
+    "fdcId": 460136,
+    "description": "HAM SANDWICH",
+    "publicationDate": "4/1/2019",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578569,
+            "amount": 12.56
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578570,
+            "amount": 5.12
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578576,
+            "amount": 28.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578574,
+            "amount": 0.9
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578571,
+            "amount": 18.14
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578572,
+            "amount": 177.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578573,
+            "amount": 2.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578577,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 4578578,
+            "amount": 2.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 4578575,
+            "amount": 670.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1104,
+                "number": "318",
+                "name": "Vitamin A, IU",
+                "rank": 7500,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3139712,
+            "amount": 698.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3139711,
+            "amount": 1.26
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3139713,
+            "amount": 2.8
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 3139710,
+            "amount": 140.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "7/14/2017",
+    "availableDate": "7/14/2017",
+    "brandOwner": "Taylor Fresh Foods, Inc.",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Prepared Subs & Sandwiches",
+    "gtinUpc": "030223011026",
+    "householdServingFullText": "0.5 SANDWICH",
+    "ingredients": "HAM WATER ADDED (FRESH HAM, WATER, SALT, SUGAR, DEXTROSE, SODIUM PHOSPHATE, MONOSODIUM GLUTAMATE, SODIUM ERYTHORBATE, SODIUM NITRITE), ITALIAN SUB ROLL (BLEACHED ENRICHED FLOUR [WHEAT FLOUR, VITAMIN A PALMITATE, CALCIUM, NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID], WATER, SALT, DEXTROSE [SUGAR], MARGARINE [PALM OIL, LIQUID SOYBEAN OIL, WATER, SALT], YEAST, DOUGH CONDITIONER [WHEY, CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE HYDROCHLORIDE, POTASSIUM BROMATE], AND 2% OR LESS OF THE FOLLOWING: GUAR GUM, POTASSIUM IODATE, CALCIUM SULFATE, AMMONIUM SULFATE, ASCORBIC ACID, HYDROLYZED WHEAT GLUTEN, DIACETYL TARTARIC ACID ESTERS OF MONO AND DIGLYCERIDES [DATEM], AZODICARBONAMIDE [ADA]), SWISS CHEESE (PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), TOMATO GREEN LEAF LETTUCE.",
+    "marketCountry": "United States",
+    "servingSize": 215.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "foodAttributes": [],
+            "fdcId": 460136,
+            "description": "HAM SANDWICH",
+            "publicationDate": "4/1/2019",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/14/2017",
+            "availableDate": "7/14/2017",
+            "brandOwner": "Taylor Fresh Foods, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Prepared Subs & Sandwiches",
+            "gtinUpc": "030223011026",
+            "householdServingFullText": "0.5 SANDWICH",
+            "ingredients": "HAM WATER ADDED (FRESH HAM, WATER, SALT, SUGAR, DEXTROSE, SODIUM PHOSPHATE, MONOSODIUM GLUTAMATE, SODIUM ERYTHORBATE, SODIUM NITRITE), ITALIAN SUB ROLL (BLEACHED ENRICHED FLOUR [WHEAT FLOUR, VITAMIN A PALMITATE, CALCIUM, NIACIN, IRON, THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID], WATER, SALT, DEXTROSE [SUGAR], MARGARINE [PALM OIL, LIQUID SOYBEAN OIL, WATER, SALT], YEAST, DOUGH CONDITIONER [WHEY, CORN FLOUR, MONOCALCIUM PHOSPHATE, L-CYSTEINE HYDROCHLORIDE, POTASSIUM BROMATE], AND 2% OR LESS OF THE FOLLOWING: GUAR GUM, POTASSIUM IODATE, CALCIUM SULFATE, AMMONIUM SULFATE, ASCORBIC ACID, HYDROLYZED WHEAT GLUTEN, DIACETYL TARTARIC ACID ESTERS OF MONO AND DIGLYCERIDES [DATEM], AZODICARBONAMIDE [ADA]), SWISS CHEESE (PART SKIM MILK, CHEESE CULTURES, SALT, ENZYMES), TOMATO GREEN LEAF LETTUCE.",
+            "marketCountry": "United States",
+            "servingSize": 215.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 11.008
+        },
+        "saturatedFat": {
+            "value": 5.0095
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 60.2
+        },
+        "sodium": {
+            "value": 1440.5
+        },
+        "carbohydrates": {
+            "value": 39.001
+        },
+        "fiber": {
+            "value": 1.935
+        },
+        "sugars": {
+            "value": 5.0095
+        },
+        "protein": {
+            "value": 27.004
+        },
+        "calcium": {
+            "value": 301.0
+        },
+        "iron": {
+            "value": 2.709
+        },
+        "calories": {
+            "value": 380.55
+        }
+    }
+}

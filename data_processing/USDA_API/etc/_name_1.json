@@ -1,0 +1,13 @@
+{
+    "Recipes": {
+        "HOTDOG": {
+            "servingSize": 45.0,
+            "fdcID": 475236,
+            "calories": 109.8,
+            "carbohydrates": 1.998,
+            "fat": 9.0,
+            "protein": 4.0005,
+            "sugars": 0.999
+        }
+    }
+}

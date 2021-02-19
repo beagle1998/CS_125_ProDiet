@@ -1,0 +1,895 @@
+{
+    "Recipes": {
+        "ELKI, SAVORY CRACKERS, GARLIC & HERB": {
+            "servingSize": 16.0,
+            "fdcID": 400000,
+            "calories": 80.0,
+            "carbohydrates": 10.0,
+            "fat": 3.5008,
+            "protein": 2.0,
+            "sugars": 1.0
+        },
+        "CASINA ROSSA, HOMEMADE ANTIPASTO": {
+            "servingSize": 100.0,
+            "fdcID": 400001,
+            "calories": 380.0,
+            "carbohydrates": 5.7,
+            "fat": 41.0,
+            "protein": 1.0,
+            "sugars": 2.9
+        },
+        "PROJECT 7, SUGAR FREE GOURMET GUM, COCONUT LIME": {
+            "servingSize": 2.5,
+            "fdcID": 400002,
+            "calories": 5.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "DECAFFEINATED ICED TEA WITH PEACH, DRINK MIX": {
+            "servingSize": 1.0,
+            "fdcID": 400003,
+            "calories": 5.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "CUOCO, AUBERGINE AND VEGETABLE PUREE": {
+            "servingSize": 100.0,
+            "fdcID": 400004,
+            "calories": 71.0,
+            "carbohydrates": 9.0,
+            "fat": 4.0,
+            "protein": 1.0,
+            "sugars": 6.0
+        },
+        "FERRERO, NUTELLA, HAZELNUT SPREAD WITH COCOA MINI CUPS": {
+            "servingSize": 30.0,
+            "fdcID": 400005,
+            "calories": 159.9,
+            "carbohydrates": 18.0,
+            "fat": 9.0,
+            "protein": 2.001,
+            "sugars": 17.001
+        },
+        "BUTTERFLY, CORIANDER POWDER": {
+            "servingSize": 100.0,
+            "fdcID": 400006,
+            "calories": 25.0,
+            "carbohydrates": 3.0,
+            "fat": 1.0,
+            "protein": 1.0,
+            "sugars": 0.0
+        },
+        "GIULIANO, MARASCHINO CHERRIES": {
+            "servingSize": 5.0,
+            "fdcID": 400007,
+            "calories": 10.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "MOONDISH, CHEF KIKO, TRADITIONAL LAING TARO LEAVES IN COCONUT CREAM": {
+            "servingSize": 77.0,
+            "fdcID": 400008,
+            "calories": 150.15,
+            "carbohydrates": 5.9983,
+            "fat": 12.9976,
+            "protein": 3.003,
+            "sugars": 1.001
+        },
+        "BAMBOE, SOTO DAGING": {
+            "servingSize": 10.0,
+            "fdcID": 400009,
+            "calories": 20.0,
+            "carbohydrates": 2.0,
+            "fat": 0.5,
+            "protein": 1.0,
+            "sugars": 1.0
+        },
+        "NORTH SOUTH, BLACHEN DRIED SHRIMP PASTE": {
+            "servingSize": 5.0,
+            "fdcID": 400010,
+            "calories": 7.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 1.0,
+            "sugars": 0.0
+        },
+        "MASAGANA, SARDINES IN TOMATO SAUCE CHILI ADDED": {
+            "servingSize": 100.0,
+            "fdcID": 400011,
+            "calories": 100.0,
+            "carbohydrates": 2.0,
+            "fat": 5.0,
+            "protein": 12.0,
+            "sugars": 0.0
+        },
+        "GREAT VALUE, STRAWBERRY PRESERVES, STRAWBERRY": {
+            "servingSize": 20.0,
+            "fdcID": 400012,
+            "calories": 45.0,
+            "carbohydrates": 11.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 8.0
+        },
+        "BAYANIHAN, ORIGINAL COCONUT JAM, COCONUT": {
+            "servingSize": 15.0,
+            "fdcID": 400013,
+            "calories": 60.0,
+            "carbohydrates": 10.9995,
+            "fat": 1.9995,
+            "protein": 0.0,
+            "sugars": 10.0005
+        },
+        "SHANDONG, SOYBEAN PASTE": {
+            "servingSize": 20.0,
+            "fdcID": 400014,
+            "calories": 25.0,
+            "carbohydrates": 2.0,
+            "fat": 1.0,
+            "protein": 2.0,
+            "sugars": 1.0
+        },
+        "TILLAMOOK COUNTRY SMOKER, OLD FASHIONED SMOKED & DRIED BEEF STEAK CUTS": {
+            "servingSize": 28.0,
+            "fdcID": 400015,
+            "calories": 80.08,
+            "carbohydrates": 7.0,
+            "fat": 1.5008,
+            "protein": 9.9988,
+            "sugars": 7.0
+        },
+        "LADY'S CHOICE, ALSA, GREEN GULAMAN": {
+            "servingSize": 22.5,
+            "fdcID": 400016,
+            "calories": 87.975,
+            "carbohydrates": 22.0005,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 20.00025
+        },
+        "SUMMER BERRIES, CANDIES LIGHTLY DUSTED IN POWDERED SUGAR, SOFT BERRY": {
+            "servingSize": 43.0,
+            "fdcID": 400017,
+            "calories": 135.02,
+            "carbohydrates": 35.9996,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 28.9992
+        },
+        "EL MEXICANO, LOLLIPOPS, MANGO": {
+            "servingSize": 16.0,
+            "fdcID": 400018,
+            "calories": 62.08,
+            "carbohydrates": 14.0,
+            "fat": 0.4992,
+            "protein": 0.0,
+            "sugars": 6.0
+        },
+        "OLD FISHERMAN, PACIFIC SAURY IN TOMATO SAUCE": {
+            "servingSize": 55.0,
+            "fdcID": 400019,
+            "calories": 102.85,
+            "carbohydrates": 2.002,
+            "fat": 7.0015,
+            "protein": 8.0025,
+            "sugars": 2.002
+        },
+        "TRADER JOE'S, DRIED FLATTENED BANANA": {
+            "servingSize": 40.0,
+            "fdcID": 400020,
+            "calories": 130.0,
+            "carbohydrates": 31.0,
+            "fat": 0.0,
+            "protein": 2.0,
+            "sugars": 23.0
+        },
+        "HAGOROMO, CANNED MACKEREL": {
+            "servingSize": 160.0,
+            "fdcID": 400021,
+            "calories": 280.0,
+            "carbohydrates": 22.0,
+            "fat": 8.992,
+            "protein": 28.0,
+            "sugars": 20.992
+        },
+        "365 EVERYDAY VALUE, PEPPERMINT, MINTS": {
+            "servingSize": 2.0,
+            "fdcID": 400022,
+            "calories": 10.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 2.0
+        },
+        "T- WEST, HOT PEPPER": {
+            "servingSize": 25.0,
+            "fdcID": 400023,
+            "calories": 86.0,
+            "carbohydrates": 15.0,
+            "fat": 3.0,
+            "protein": 4.0,
+            "sugars": 0.0
+        },
+        "ORGANIC LOWFAT YOGURT": {
+            "servingSize": 105.0,
+            "fdcID": 400024,
+            "calories": 110.25,
+            "carbohydrates": 16.002,
+            "fat": 1.995,
+            "protein": 4.998,
+            "sugars": 13.9965
+        },
+        "ICE CREAM CUPCAKES": {
+            "servingSize": 66.0,
+            "fdcID": 400026,
+            "calories": 209.88,
+            "carbohydrates": 27.9972,
+            "fat": 9.999,
+            "protein": 3.003,
+            "sugars": 17.9982
+        },
+        "CREAMY CHOCOLATE, STRAWBERRY AND BANANA ICE CREAM, SWIRLED WITH STRAWBERRY AND CHOCOLATE FLAVORED RIPPLES, ON A FUDGE-TOPPED CHOCOLATE COOKIE CRUST, TOPPED WITH WHIPPED TOPPING, CHOCOLATE FLAVORED DRIZZLE, CHERRIES & ALMONDS SUNDAE PREMIUM ICE CREAM CAKE": {
+            "servingSize": 102.0,
+            "fdcID": 400027,
+            "calories": 299.88,
+            "carbohydrates": 37.995,
+            "fat": 14.0046,
+            "protein": 3.9984,
+            "sugars": 25.9998
+        },
+        "CREAMY VANILLA ICE CREAM LOADED WITH CHUNKS OF CHOCOLATE SANDWICH COOKIES, ON A FUDGE TOPPED CHOCOLATE COOKIE CRUST, TOPPED WITH WHIPPED TOPPING, MORE COOKIE PIECES & CHOCOLATE FLAVORED DRIZZLE SUNDAE PREMIUM ICE CREAM CAKE, COOKIES & CREAM": {
+            "servingSize": 102.0,
+            "fdcID": 400028,
+            "calories": 310.08,
+            "carbohydrates": 37.995,
+            "fat": 16.0038,
+            "protein": 3.9984,
+            "sugars": 25.9998
+        },
+        "CARROT CAKE": {
+            "servingSize": 34.0,
+            "fdcID": 400029,
+            "calories": 170.0,
+            "carbohydrates": 20.9984,
+            "fat": 8.9998,
+            "protein": 0.9996,
+            "sugars": 14.0012
+        },
+        "CREAMY VANILLA ICE CREAM, RIPPLED WITH CARAMEL & CRUSHED PRALINE PECANS, ON A FUDGE-TOPPED CHOCOLATE COOKIE CRUST, WITH WHIPPED TOPPING, CRUSHED PRALINE PECANS, CARAMEL DRIZZLE & CHOCOLATE FLAVORED DRIZZLE SUNDAE PREMIUM CAKE": {
+            "servingSize": 102.0,
+            "fdcID": 400030,
+            "calories": 310.08,
+            "carbohydrates": 42.0036,
+            "fat": 14.0046,
+            "protein": 2.9988,
+            "sugars": 30.9978
+        },
+        "OATMEAL RAISIN CRISP": {
+            "servingSize": 34.0,
+            "fdcID": 400031,
+            "calories": 170.0,
+            "carbohydrates": 25.0002,
+            "fat": 7.0006,
+            "protein": 0.9996,
+            "sugars": 17.0
+        },
+        "SWEET MIDDLES, CREME BRULEE": {
+            "servingSize": 34.0,
+            "fdcID": 400032,
+            "calories": 179.86,
+            "carbohydrates": 25.0002,
+            "fat": 8.0002,
+            "protein": 0.9996,
+            "sugars": 16.0004
+        },
+        "CELEBRATION ICE CREAM CAKE": {
+            "servingSize": 84.0,
+            "fdcID": 400033,
+            "calories": 220.08,
+            "carbohydrates": 24.9984,
+            "fat": 11.004,
+            "protein": 2.9988,
+            "sugars": 19.0008
+        },
+        "MACKEREL IN WATER": {
+            "servingSize": 100.0,
+            "fdcID": 400034,
+            "calories": 190.0,
+            "carbohydrates": 0.0,
+            "fat": 11.0,
+            "protein": 21.0,
+            "sugars": 0.0
+        },
+        "CHUNG JUNG ONE, KOREAN BBQ GALBI SAUCE & MARINADE FOR PORK": {
+            "servingSize": 20.0,
+            "fdcID": 400035,
+            "calories": 30.0,
+            "carbohydrates": 7.0,
+            "fat": 0.0,
+            "protein": 1.0,
+            "sugars": 5.0
+        },
+        "FROPICS, SALTED SHRIMP FRY BAGOONG ALAMANG": {
+            "servingSize": 15.0,
+            "fdcID": 400036,
+            "calories": 10.05,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 1.9995,
+            "sugars": 0.0
+        },
+        "COST PLUS, MILK CHOCOLATE WITH CHAI SPICE FILLING": {
+            "servingSize": 50.0,
+            "fdcID": 400037,
+            "calories": 230.0,
+            "carbohydrates": 26.0,
+            "fat": 13.0,
+            "protein": 2.0,
+            "sugars": 23.0
+        },
+        "MEIJI, APOLLO CHOCOLATE": {
+            "servingSize": 46.0,
+            "fdcID": 400038,
+            "calories": 270.02,
+            "carbohydrates": 25.9992,
+            "fat": 15.9988,
+            "protein": 2.9992,
+            "sugars": 25.001
+        },
+        "CANASIA, SALTED MACKEREL FILLETS IN OIL WITH GINGER": {
+            "servingSize": 115.0,
+            "fdcID": 400039,
+            "calories": 149.5,
+            "carbohydrates": 0.0,
+            "fat": 11.0055,
+            "protein": 11.0055,
+            "sugars": 0.0
+        },
+        "BROWN&HALEY, ALMOND ROCA, BUTTERCRUNCH TOFFEE": {
+            "servingSize": 36.0,
+            "fdcID": 400040,
+            "calories": 200.16,
+            "carbohydrates": 16.9992,
+            "fat": 15.0012,
+            "protein": 2.0016,
+            "sugars": 15.0012
+        },
+        "MUSHROOM TRUFFLE HUNT": {
+            "servingSize": 0.6,
+            "fdcID": 400041,
+            "calories": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "KWEICHOW, SPICY CONVENIENT DISH": {
+            "servingSize": 30.0,
+            "fdcID": 400042,
+            "calories": 123.9,
+            "carbohydrates": 2.001,
+            "fat": 12.0,
+            "protein": 2.001,
+            "sugars": 0.999
+        },
+        "RITROVO SELECTIONS, OLIVE LEAF-SHAPED PASTA": {
+            "servingSize": 100.0,
+            "fdcID": 400043,
+            "calories": 357.0,
+            "carbohydrates": 72.0,
+            "fat": 1.5,
+            "protein": 12.0,
+            "sugars": 0.0
+        },
+        "POLANER, ALL FRUIT, SPREADABLE FRUIT, BLUEBERRY": {
+            "servingSize": 18.0,
+            "fdcID": 400044,
+            "calories": 34.92,
+            "carbohydrates": 9.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 7.9992
+        },
+        "TONG YENG, ROAST FISH": {
+            "servingSize": 30.0,
+            "fdcID": 400045,
+            "calories": 63.0,
+            "carbohydrates": 3.0,
+            "fat": 3.0,
+            "protein": 6.0,
+            "sugars": 3.0
+        },
+        "SHIRAKIKU, BLACK PEPPER POWDER": {
+            "servingSize": 2.0,
+            "fdcID": 400046,
+            "calories": 10.0,
+            "carbohydrates": 1.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "ORANGE PEEL IN DARK CHOCOLATE": {
+            "servingSize": 34.0,
+            "fdcID": 400047,
+            "calories": 170.0,
+            "carbohydrates": 19.9988,
+            "fat": 11.9986,
+            "protein": 1.9992,
+            "sugars": 14.0012
+        },
+        "YOKIDS ORGANIC LOWFAT YOGURT": {
+            "servingSize": 105.0,
+            "fdcID": 400048,
+            "calories": 110.25,
+            "carbohydrates": 16.9995,
+            "fat": 1.995,
+            "protein": 4.998,
+            "sugars": 13.9965
+        },
+        "MAFRAN, THE ORIGINAL BANANA SAUCE": {
+            "servingSize": 29.0,
+            "fdcID": 400049,
+            "calories": 29.87,
+            "carbohydrates": 7.0006,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 6.0001
+        },
+        "STRIANESE, CHICK-PEAS": {
+            "servingSize": 130.0,
+            "fdcID": 400050,
+            "calories": 119.6,
+            "carbohydrates": 18.005,
+            "fat": 2.002,
+            "protein": 6.994,
+            "sugars": 1.001
+        },
+        "FU-CHUNG, BEAN CURD": {
+            "servingSize": 10.0,
+            "fdcID": 400051,
+            "calories": 13.0,
+            "carbohydrates": 0.0,
+            "fat": 1.0,
+            "protein": 1.0,
+            "sugars": 0.0
+        },
+        "FORTUNE, CRAB MEAT": {
+            "servingSize": 56.0,
+            "fdcID": 400052,
+            "calories": 30.24,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 5.9976,
+            "sugars": 0.0
+        },
+        "LEE KUM KEE, CHILI BLACK BEAN SAUCE": {
+            "servingSize": 7.0,
+            "fdcID": 400053,
+            "calories": 24.99,
+            "carbohydrates": 1.0003,
+            "fat": 1.9999,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "POLANER, ALL FRUIT SPREADABLE FRUIT, CHERRY": {
+            "servingSize": 18.0,
+            "fdcID": 400054,
+            "calories": 34.92,
+            "carbohydrates": 10.0008,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 7.0002
+        },
+        "PRIVATE SELECTION, EARL GREY BLACK TEA": {
+            "servingSize": 2.0,
+            "fdcID": 400055,
+            "calories": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "WHOLE DRIED TART CHERRIES": {
+            "servingSize": 40.0,
+            "fdcID": 400056,
+            "calories": 139.2,
+            "carbohydrates": 34.0,
+            "fat": 0.0,
+            "protein": 1.0,
+            "sugars": 24.0
+        },
+        "ROAD'S END ORGANICS, QUICK GRAVY, SAVORY HERBS": {
+            "servingSize": 7.0,
+            "fdcID": 400057,
+            "calories": 24.99,
+            "carbohydrates": 5.0001,
+            "fat": 0.0,
+            "protein": 1.0003,
+            "sugars": 0.0
+        },
+        "CANDY": {
+            "servingSize": 2.0,
+            "fdcID": 400058,
+            "calories": 5.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "CHILI SAUCE": {
+            "servingSize": 17.0,
+            "fdcID": 400059,
+            "calories": 10.03,
+            "carbohydrates": 3.0005,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 3.0005
+        },
+        "STRIANESE, BROWN BEANS": {
+            "servingSize": 125.0,
+            "fdcID": 400060,
+            "calories": 90.0,
+            "carbohydrates": 16.0,
+            "fat": 0.5,
+            "protein": 6.0,
+            "sugars": 1.0
+        },
+        "TRADER JOE'S, DRIED PITTED TART MONTMORENCY CHERRIES": {
+            "servingSize": 44.0,
+            "fdcID": 400061,
+            "calories": 160.16,
+            "carbohydrates": 36.0008,
+            "fat": 0.5016,
+            "protein": 2.002,
+            "sugars": 24.002
+        },
+        "LILLY'S, DOUBLE CHOCOLATE CRUNCH, ORIGINAL": {
+            "servingSize": 28.0,
+            "fdcID": 400062,
+            "calories": 110.04,
+            "carbohydrates": 15.9992,
+            "fat": 9.9988,
+            "protein": 1.9992,
+            "sugars": 0.9996
+        },
+        "CHNG KEE'S, SAMBAL OELEK": {
+            "servingSize": 30.0,
+            "fdcID": 400063,
+            "calories": 78.9,
+            "carbohydrates": 14.001,
+            "fat": 2.001,
+            "protein": 0.999,
+            "sugars": 5.001
+        },
+        "MULTIGRAIN PITA BITE CRACKERS": {
+            "servingSize": 28.0,
+            "fdcID": 400064,
+            "calories": 120.12,
+            "carbohydrates": 19.0008,
+            "fat": 3.5,
+            "protein": 4.0012,
+            "sugars": 0.9996
+        },
+        "RICHIN, SARDINES IN TOMATO SAUCE WITH CHILLI": {
+            "servingSize": 140.0,
+            "fdcID": 400065,
+            "calories": 130.2,
+            "carbohydrates": 4.004,
+            "fat": 4.494,
+            "protein": 18.998,
+            "sugars": 4.004
+        },
+        "SHIRAKIKU, CHILI PEPPER POWER MIX": {
+            "servingSize": 2.0,
+            "fdcID": 400066,
+            "calories": 10.0,
+            "carbohydrates": 1.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 1.0
+        },
+        "TRADER JOE'S, DRIED BABY SWEET PINEAPPLE": {
+            "servingSize": 40.0,
+            "fdcID": 400067,
+            "calories": 130.0,
+            "carbohydrates": 32.0,
+            "fat": 0.0,
+            "protein": 1.0,
+            "sugars": 23.0
+        },
+        "SEATTLE PICKELE CO, PICKLED BEETS": {
+            "servingSize": 28.0,
+            "fdcID": 400068,
+            "calories": 17.92,
+            "carbohydrates": 5.0008,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "OLIVIER NAPA VALLEY, CHARCUTERIE MUSTARD": {
+            "servingSize": 30.0,
+            "fdcID": 400069,
+            "calories": 30.0,
+            "carbohydrates": 3.0,
+            "fat": 2.001,
+            "protein": 2.001,
+            "sugars": 0.0
+        },
+        "SPEARMINT NATURAL CHEWING GUM": {
+            "servingSize": 2.5,
+            "fdcID": 400070,
+            "calories": 5.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 2.0
+        },
+        "TRADER JOE'S, DRIED CRANBERRIES": {
+            "servingSize": 40.0,
+            "fdcID": 400071,
+            "calories": 130.0,
+            "carbohydrates": 32.0,
+            "fat": 1.0,
+            "protein": 0.0,
+            "sugars": 28.0
+        },
+        "IMPERIAL TASTE, CRABMEAT": {
+            "servingSize": 56.0,
+            "fdcID": 400072,
+            "calories": 34.72,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 8.0024,
+            "sugars": 0.0
+        },
+        "VE WONG, FRIED GLUTEN": {
+            "servingSize": 30.0,
+            "fdcID": 400073,
+            "calories": 42.0,
+            "carbohydrates": 3.999,
+            "fat": 2.001,
+            "protein": 2.001,
+            "sugars": 3.0
+        },
+        "COCOMELS, CARAMELS, COCONUT MILK": {
+            "servingSize": 40.0,
+            "fdcID": 400074,
+            "calories": 120.0,
+            "carbohydrates": 21.0,
+            "fat": 3.5,
+            "protein": 1.0,
+            "sugars": 16.0
+        },
+        "365 ORGANIC EVERYDAY VALUE, ORGANIC CRANBERRY FRUIT STRIP": {
+            "servingSize": 18.0,
+            "fdcID": 400075,
+            "calories": 59.94,
+            "carbohydrates": 14.0004,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 10.0008
+        },
+        "CHOCOLOVE, SALTED PEANUT IN MILK CHOCOLATE": {
+            "servingSize": 30.0,
+            "fdcID": 400076,
+            "calories": 159.9,
+            "carbohydrates": 15.999,
+            "fat": 11.001,
+            "protein": 3.0,
+            "sugars": 14.001
+        },
+        "TRADER JOE'S, DRIED FRUIT, PITTED PRUNES": {
+            "servingSize": 40.0,
+            "fdcID": 400077,
+            "calories": 110.0,
+            "carbohydrates": 27.0,
+            "fat": 0.0,
+            "protein": 1.0,
+            "sugars": 14.0
+        },
+        "NISSUI, MACKEREL, IN BRINE": {
+            "servingSize": 55.0,
+            "fdcID": 400078,
+            "calories": 59.95,
+            "carbohydrates": 0.0,
+            "fat": 1.5015,
+            "protein": 11.0,
+            "sugars": 0.0
+        },
+        "RICHIN, SARDINES IN TOMATO SAUCE": {
+            "servingSize": 155.0,
+            "fdcID": 400079,
+            "calories": 150.35,
+            "carbohydrates": 3.999,
+            "fat": 5.0065,
+            "protein": 21.0025,
+            "sugars": 3.999
+        },
+        "MASTER WU, HOT CHILI OIL": {
+            "servingSize": 14.0,
+            "fdcID": 400080,
+            "calories": 126.0,
+            "carbohydrates": 0.0,
+            "fat": 14.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "SAN FRANCISCO SALT CO., SEA SALT, FENNEL SAFFRON": {
+            "servingSize": 1.0,
+            "fdcID": 400081,
+            "calories": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "T-WEST INC., RED PEPPER": {
+            "servingSize": 20.0,
+            "fdcID": 400082,
+            "calories": 69.0,
+            "carbohydrates": 11.0,
+            "fat": 2.0,
+            "protein": 3.0,
+            "sugars": 0.0
+        },
+        "FAMILY FOOD, SMOKED SCALLOPS IN COTTONSEED OIL": {
+            "servingSize": 55.0,
+            "fdcID": 400083,
+            "calories": 90.2,
+            "carbohydrates": 1.001,
+            "fat": 3.9985,
+            "protein": 13.9975,
+            "sugars": 0.0
+        },
+        "TRADER JOE'S, MIDDLE EASTERN FLATBREAD": {
+            "servingSize": 56.0,
+            "fdcID": 400084,
+            "calories": 150.08,
+            "carbohydrates": 26.0008,
+            "fat": 3.0016,
+            "protein": 3.9984,
+            "sugars": 0.0
+        },
+        "GEM GEM, GINGER CANDY": {
+            "servingSize": 12.0,
+            "fdcID": 400085,
+            "calories": 39.96,
+            "carbohydrates": 9.9996,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 9.9996
+        },
+        "ORCHARD FRUITS, SOFT FRUIT CANDIES": {
+            "servingSize": 43.0,
+            "fdcID": 400086,
+            "calories": 135.02,
+            "carbohydrates": 35.9996,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 28.9992
+        },
+        "AROY-D, COCONUT MILK": {
+            "servingSize": 90.0,
+            "fdcID": 400087,
+            "calories": 170.1,
+            "carbohydrates": 1.998,
+            "fat": 17.001,
+            "protein": 0.999,
+            "sugars": 1.998
+        },
+        "CAP IBU, SHALLOT IN GREEN CHILI SAUCE": {
+            "servingSize": 20.0,
+            "fdcID": 400088,
+            "calories": 50.0,
+            "carbohydrates": 3.0,
+            "fat": 5.0,
+            "protein": 0.0,
+            "sugars": 2.0
+        },
+        "LEE, VEGETARIAN OYSTER SAUCE": {
+            "servingSize": 15.0,
+            "fdcID": 400089,
+            "calories": 10.05,
+            "carbohydrates": 3.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 1.0005
+        },
+        "AYAM BRAND, SARDINES IN EXTRA VIRGIN OLIVE OIL": {
+            "servingSize": 56.0,
+            "fdcID": 400090,
+            "calories": 160.16,
+            "carbohydrates": 3.9984,
+            "fat": 12.9976,
+            "protein": 8.0024,
+            "sugars": 0.0
+        },
+        "IMPERIAL TASTE, WHOLE BABY CLAMS": {
+            "servingSize": 56.0,
+            "fdcID": 400091,
+            "calories": 49.84,
+            "carbohydrates": 1.9992,
+            "fat": 1.0024,
+            "protein": 8.9992,
+            "sugars": 0.0
+        },
+        "FERRARA CHOCOLATE, MILK CHOCOLATE, ORANGE": {
+            "servingSize": 44.0,
+            "fdcID": 400092,
+            "calories": 239.8,
+            "carbohydrates": 26.9984,
+            "fat": 14.0008,
+            "protein": 2.002,
+            "sugars": 25.9996
+        },
+        "WICKED DARK 95% DARK STONE GROUND CHOCOLATE": {
+            "servingSize": 35.0,
+            "fdcID": 400093,
+            "calories": 210.0,
+            "carbohydrates": 14.0,
+            "fat": 14.0,
+            "protein": 5.0015,
+            "sugars": 1.9985
+        },
+        "GREAT VALUE, DRINK MIX, MANGO": {
+            "servingSize": 1.0,
+            "fdcID": 400094,
+            "calories": 0.0,
+            "carbohydrates": 1.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "BAIWEIFU FOODS, CHINESE PRICKIY ASH POWDER": {
+            "servingSize": 25.0,
+            "fdcID": 400095,
+            "calories": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0.0
+        },
+        "555, SARDINES IN TOMATO SAUCE, HOT": {
+            "servingSize": 56.0,
+            "fdcID": 400096,
+            "calories": 49.84,
+            "carbohydrates": 1.9992,
+            "fat": 1.9992,
+            "protein": 5.9976,
+            "sugars": 1.0024
+        },
+        "PROJECT 7, SUGAR FREE GOURMET GUM, WEDDING CAKE": {
+            "servingSize": 2.5,
+            "fdcID": 400097,
+            "calories": 5.0,
+            "carbohydrates": 2.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        },
+        "QUOC VIET, SOUP BASE, CHICKEN": {
+            "servingSize": 9.0,
+            "fdcID": 400098,
+            "calories": 29.97,
+            "carbohydrates": 2.9997,
+            "fat": 1.9998,
+            "protein": 0.9999,
+            "sugars": 2.9997
+        },
+        "URBAN ACCENTS, THAI HEAT STIRFRY, MARINADE & ROASTING BLEND": {
+            "servingSize": 0.5,
+            "fdcID": 400099,
+            "calories": 0.0,
+            "carbohydrates": 0.0,
+            "fat": 0.0,
+            "protein": 0.0,
+            "sugars": 0
+        }
+    }
+}

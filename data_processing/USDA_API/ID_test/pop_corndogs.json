@@ -1,0 +1,369 @@
+{
+    "foodComponents": [],
+    "foodAttributes": [],
+    "foodPortions": [],
+    "fdcId": 480676,
+    "description": "CORNDOGS",
+    "publicationDate": "4/1/2019",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 73,
+                "code": "LCSL",
+                "description": "Calculated from a less than value per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 6393830,
+            "amount": 1.3
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444810,
+            "amount": 11.84
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1292,
+                "number": "645",
+                "name": "Fatty acids, total monounsaturated",
+                "rank": 11400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444815,
+            "amount": 5.26
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1293,
+                "number": "646",
+                "name": "Fatty acids, total polyunsaturated",
+                "rank": 12900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444816,
+            "amount": 4.61
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444813,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444809,
+            "amount": 289.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444808,
+            "amount": 31.58
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444811,
+            "amount": 803.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444814,
+            "amount": 3.29
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444807,
+            "amount": 14.47
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5444812,
+            "amount": 39.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 5444806,
+            "amount": 7.89
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3715490,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3715488,
+            "amount": 1.89
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1104,
+                "number": "318",
+                "name": "Vitamin A, IU",
+                "rank": 7500,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3715489,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 3715487,
+            "amount": 53.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "7/14/2017",
+    "availableDate": "7/14/2017",
+    "brandOwner": "Williams Sausage Company, Inc.",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Frozen Appetizers & Hors D'oeuvres",
+    "gtinUpc": "072494513953",
+    "householdServingFullText": "1 CORN DOG",
+    "ingredients": "BATTER INGREDIENTS: WATER, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, DEGERMED YELLOW CORN MEAL, SALT, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SOY FLOUR, SOYBEAN OIL, DRIED HONEY, ONION POWDER, SOY LECITHIN, NONFAT MILK, EGG. COOKED IN VEGETABLE OIL (CONTAINS ONE OR MORE OF: CORN OIL, COTTONSEED OIL, SOYBEAN OIL). FRANK INGREDIENTS: MECHANICALLY SEPARATED CHICKEN, PORK, WATER, DEXTROSE, SALT, CORN SYRUP. CONTAINS 2% OR LESS OF FLAVORINGS, SODIUM PHOSPHATE, BEEF, PAPRIKA AND PAPRIKA OLEORESIN, SODIUM ERYTHORBATE, SODIUM NITRITE.",
+    "marketCountry": "United States",
+    "servingSize": 76.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "foodAttributes": [],
+            "fdcId": 480676,
+            "description": "CORNDOGS",
+            "publicationDate": "4/1/2019",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/14/2017",
+            "availableDate": "7/14/2017",
+            "brandOwner": "Williams Sausage Company, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Frozen Appetizers & Hors D'oeuvres",
+            "gtinUpc": "072494513953",
+            "householdServingFullText": "1 CORN DOG",
+            "ingredients": "BATTER INGREDIENTS: WATER, ENRICHED FLOUR (WHEAT FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), SUGAR, DEGERMED YELLOW CORN MEAL, SALT, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SOY FLOUR, SOYBEAN OIL, DRIED HONEY, ONION POWDER, SOY LECITHIN, NONFAT MILK, EGG. COOKED IN VEGETABLE OIL (CONTAINS ONE OR MORE OF: CORN OIL, COTTONSEED OIL, SOYBEAN OIL). FRANK INGREDIENTS: MECHANICALLY SEPARATED CHICKEN, PORK, WATER, DEXTROSE, SALT, CORN SYRUP. CONTAINS 2% OR LESS OF FLAVORINGS, SODIUM PHOSPHATE, BEEF, PAPRIKA AND PAPRIKA OLEORESIN, SODIUM ERYTHORBATE, SODIUM NITRITE.",
+            "marketCountry": "United States",
+            "servingSize": 76.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 10.9972
+        },
+        "saturatedFat": {
+            "value": 2.5004
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 29.64
+        },
+        "sodium": {
+            "value": 610.28
+        },
+        "carbohydrates": {
+            "value": 24.0008
+        },
+        "fiber": {
+            "value": 0.988
+        },
+        "sugars": {
+            "value": 8.9984
+        },
+        "protein": {
+            "value": 5.9964
+        },
+        "calcium": {
+            "value": 40.28
+        },
+        "iron": {
+            "value": 1.4364
+        },
+        "calories": {
+            "value": 219.64
+        }
+    }
+}

@@ -1,0 +1,570 @@
+{
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 1092559,
+            "value": 4,
+            "name": "Nutrient Updated",
+            "foodAttributeType": {
+                "id": 998,
+                "name": "Update Log",
+                "description": "Changes that were made to this food"
+            }
+        },
+        {
+            "id": 1092558,
+            "value": 6,
+            "name": "Nutrient Removed",
+            "foodAttributeType": {
+                "id": 998,
+                "name": "Update Log",
+                "description": "Changes that were made to this food"
+            }
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 1155395,
+    "description": "FRIED CHICKEN",
+    "publicationDate": "1/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013331,
+            "amount": 3.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013323,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013319,
+            "amount": 12.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013328,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013324,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013329,
+            "amount": 70.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013320,
+            "amount": 4.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013321,
+            "amount": 190.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013318,
+            "amount": 16.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013326,
+            "amount": 189.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013327,
+            "amount": 520.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013322,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure"
+            },
+            "id": 14013330,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 78,
+                "code": "LCGA",
+                "description": "Given by information provider as an approximate value per 100 unit measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 14013325,
+            "amount": 1.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "12/11/2020",
+    "availableDate": "12/11/2020",
+    "brandOwner": "BRAKEBUSH BROTHERS INC.",
+    "dataSource": "GDSN",
+    "brandedFoodCategory": "Meat/Poultry/Other Animals  Prepared/Processed",
+    "gtinUpc": "10038034613702",
+    "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+    "marketCountry": "United States",
+    "servingSize": 85.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "foodAttributes": [
+                {
+                    "id": 1092559,
+                    "value": 4,
+                    "name": "Nutrient Updated",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                },
+                {
+                    "id": 1092558,
+                    "value": 6,
+                    "name": "Nutrient Removed",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                }
+            ],
+            "fdcId": 1155395,
+            "description": "FRIED CHICKEN",
+            "publicationDate": "1/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/11/2020",
+            "availableDate": "12/11/2020",
+            "brandOwner": "BRAKEBUSH BROTHERS INC.",
+            "dataSource": "GDSN",
+            "brandedFoodCategory": "Meat/Poultry/Other Animals  Prepared/Processed",
+            "gtinUpc": "10038034613702",
+            "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+            "marketCountry": "United States",
+            "servingSize": 85.0,
+            "servingSizeUnit": "g",
+            "foodVersions": [
+                {
+                    "foodComponents": [],
+                    "foodAttributes": [
+                        {
+                            "id": 1064144,
+                            "value": 5,
+                            "name": "Nutrient Added",
+                            "foodAttributeType": {
+                                "id": 998,
+                                "name": "Update Log",
+                                "description": "Changes that were made to this food"
+                            }
+                        },
+                        {
+                            "id": 1064145,
+                            "value": 4,
+                            "name": "Nutrient Updated",
+                            "foodAttributeType": {
+                                "id": 998,
+                                "name": "Update Log",
+                                "description": "Changes that were made to this food"
+                            }
+                        },
+                        {
+                            "id": 1064143,
+                            "value": 6,
+                            "name": "Nutrient Removed",
+                            "foodAttributeType": {
+                                "id": 998,
+                                "name": "Update Log",
+                                "description": "Changes that were made to this food"
+                            }
+                        }
+                    ],
+                    "foodPortions": [],
+                    "modifiedDate": "9/21/2020",
+                    "availableDate": "9/21/2020",
+                    "brandOwner": "BRAKEBUSH BROTHERS INC.",
+                    "dataSource": "GDSN",
+                    "gpcCategoryGroup": "Meat/Poultry/Other Animals  Prepared/Processed",
+                    "gtinUpc": "10038034613702",
+                    "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+                    "marketCountry": "United States",
+                    "servingSize": 85.0,
+                    "servingSizeUnit": "g",
+                    "fdcId": 1106056,
+                    "description": "Chicken, Fully Cooked Original Honey Touched 3 pc No Wing, 17 oz. Avg, / 10 servings",
+                    "publicationDate": "11/13/2020",
+                    "dataType": "Branded",
+                    "foodClass": "Branded"
+                },
+                {
+                    "foodComponents": [],
+                    "foodAttributes": [],
+                    "foodPortions": [],
+                    "modifiedDate": "6/29/2020",
+                    "availableDate": "6/29/2020",
+                    "brandOwner": "BRAKEBUSH BROTHERS INC.",
+                    "dataSource": "GDSN",
+                    "gpcCategoryGroup": "Meat/Poultry/Other Animals  Prepared/Processed",
+                    "gtinUpc": "10038034613702",
+                    "householdServingFullText": "3 OZ",
+                    "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+                    "marketCountry": "United States",
+                    "servingSize": 85.0,
+                    "servingSizeUnit": "g",
+                    "fdcId": 1067639,
+                    "description": "Chicken, Fully Cooked Original Honey Touched 3 pc No Wing, 17 oz. Avg, / 10 servings",
+                    "publicationDate": "8/27/2020",
+                    "dataType": "Branded",
+                    "foodClass": "Branded"
+                },
+                {
+                    "foodComponents": [],
+                    "foodAttributes": [
+                        {
+                            "id": 1082244,
+                            "value": 2,
+                            "name": "Description",
+                            "foodAttributeType": {
+                                "id": 998,
+                                "name": "Update Log",
+                                "description": "Changes that were made to this food"
+                            }
+                        }
+                    ],
+                    "foodPortions": [],
+                    "modifiedDate": "11/25/2020",
+                    "availableDate": "11/25/2020",
+                    "brandOwner": "BRAKEBUSH BROTHERS INC.",
+                    "dataSource": "GDSN",
+                    "gpcCategoryGroup": "Meat/Poultry/Other Animals  Prepared/Processed",
+                    "gtinUpc": "10038034613702",
+                    "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+                    "marketCountry": "United States",
+                    "servingSize": 85.0,
+                    "servingSizeUnit": "g",
+                    "fdcId": 1146759,
+                    "description": "FRIED CHICKEN",
+                    "publicationDate": "12/30/2020",
+                    "dataType": "Branded",
+                    "foodClass": "Branded"
+                }
+            ]
+        },
+        {
+            "foodAttributes": [
+                {
+                    "id": 1082244,
+                    "value": 2,
+                    "name": "Description",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                }
+            ],
+            "fdcId": 1146759,
+            "description": "FRIED CHICKEN",
+            "publicationDate": "12/30/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "11/25/2020",
+            "availableDate": "11/25/2020",
+            "brandOwner": "BRAKEBUSH BROTHERS INC.",
+            "dataSource": "GDSN",
+            "brandedFoodCategory": "Meat/Poultry/Other Animals  Prepared/Processed",
+            "gtinUpc": "10038034613702",
+            "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+            "marketCountry": "United States",
+            "servingSize": 85.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "foodAttributes": [
+                {
+                    "id": 1064144,
+                    "value": 5,
+                    "name": "Nutrient Added",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                },
+                {
+                    "id": 1064145,
+                    "value": 4,
+                    "name": "Nutrient Updated",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                },
+                {
+                    "id": 1064143,
+                    "value": 6,
+                    "name": "Nutrient Removed",
+                    "foodAttributeType": {
+                        "id": 998,
+                        "name": "Update Log",
+                        "description": "Changes that were made to this food"
+                    }
+                }
+            ],
+            "fdcId": 1106056,
+            "description": "Chicken, Fully Cooked Original Honey Touched 3 pc No Wing, 17 oz. Avg, / 10 servings",
+            "publicationDate": "11/13/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "9/21/2020",
+            "availableDate": "9/21/2020",
+            "brandOwner": "BRAKEBUSH BROTHERS INC.",
+            "dataSource": "GDSN",
+            "brandedFoodCategory": "Meat/Poultry/Other Animals  Prepared/Processed",
+            "gtinUpc": "10038034613702",
+            "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+            "marketCountry": "United States",
+            "servingSize": 85.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "foodAttributes": [],
+            "modifiedDate": "6/29/2020",
+            "availableDate": "6/29/2020",
+            "brandOwner": "BRAKEBUSH BROTHERS INC.",
+            "dataSource": "GDSN",
+            "gpcCategoryGroup": "Meat/Poultry/Other Animals  Prepared/Processed",
+            "gtinUpc": "10038034613702",
+            "householdServingFullText": "3 OZ",
+            "ingredients": "INGREDIENT: CHICKEN WITH WINGS REMOVED, WATER, SALT, SODIUM PHOSPHATES. BREADED WITH WATER, BLEACHED WHEAT FLOUR, YELLOW CORN FLOUR, VITAL WHEAT GLUTEN, CORN STARCH, SALT, EGG WHITE, SUCROSE, LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE), SODIUM ALGINATE, SOY FLOUR, DEXTROSE, SPICE, HONEY POWDER (CORN SYRUP SOLIDS, HONEY, WHEAT STARCH, SOY FLOUR, CALCIUM STEARATE, LECITHIN), NATURAL FLAVOR, PAPRIKA EXTRACT (COLOR).",
+            "marketCountry": "United States",
+            "servingSize": 85.0,
+            "servingSizeUnit": "g",
+            "fdcId": 1067639,
+            "description": "Chicken, Fully Cooked Original Honey Touched 3 pc No Wing, 17 oz. Avg, / 10 servings",
+            "publicationDate": "8/27/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 10.2
+        },
+        "saturatedFat": {
+            "value": 2.55
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 59.5
+        },
+        "sodium": {
+            "value": 442.0
+        },
+        "carbohydrates": {
+            "value": 3.4
+        },
+        "fiber": {
+            "value": 0.0
+        },
+        "sugars": {
+            "value": 0.0
+        },
+        "protein": {
+            "value": 13.6
+        },
+        "calcium": {
+            "value": 0.0
+        },
+        "iron": {
+            "value": 0.85
+        },
+        "potassium": {
+            "value": 160.65
+        },
+        "calories": {
+            "value": 161.5
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "History" : {
+    "Jack" : {
+      "2021-01-27" : {
+        "breakfast" : [ "egg", "bread" ],
+        "dinner" : "milk",
+        "lunch" : "butter"
+      }
+    },
+    "Rose" : {
+      "2021-01-28" : {
+        "breakfast" : "egg",
+        "dinner" : "nan",
+        "lunch" : "pasta"
+      }
+    }
+  },
+  "Recipes" : {
+    "egg" : {
+      "calories" : 155,
+      "foodname" : "egg"
+    },
+    "sugar" : {
+      "calories" : 387,
+      "foodname" : "sugar"
+    }
+  },
+  "Users" : {
+    "Jack" : {
+      "gender" : "male",
+      "height" : 176.2,
+      "password" : "jackpwd",
+      "username" : "Jack",
+      "vegan" : false
+    },
+    "Jason" : {
+      "gender" : "male",
+      "height" : 174.3,
+      "password" : "jasonpwd",
+      "username" : "Jason",
+      "vegan" : true
+    },
+    "Rose" : {
+      "gender" : "female",
+      "height" : 173,
+      "password" : "rosepwd",
+      "username" : "Rose",
+      "vegan" : true
+    }
+  }
+}
