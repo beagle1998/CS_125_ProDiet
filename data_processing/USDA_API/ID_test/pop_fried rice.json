@@ -1,0 +1,330 @@
+{
+    "foodComponents": [],
+    "foodAttributes": [],
+    "foodPortions": [],
+    "fdcId": 522036,
+    "description": "FRIED RICE",
+    "publicationDate": "4/1/2019",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591556,
+            "amount": 0.32
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591549,
+            "amount": 27.24
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591548,
+            "amount": 3.21
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591547,
+            "amount": 7.69
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591554,
+            "amount": 11.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591550,
+            "amount": 170.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591552,
+            "amount": 1.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591555,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5591553,
+            "amount": 381.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 5591551,
+            "amount": 2.88
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3808188,
+            "amount": 1.9
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1104,
+                "number": "318",
+                "name": "Vitamin A, IU",
+                "rank": 7500,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3808187,
+            "amount": 240.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3808186,
+            "amount": 0.58
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 3808185,
+            "amount": 13.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "7/18/2018",
+    "availableDate": "7/18/2018",
+    "brandOwner": "Windsor Quality Food Products Ltd.",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Frozen Dinners & Entrees",
+    "gtinUpc": "010878810854",
+    "householdServingFullText": "1 BAG",
+    "ingredients": "RICE, WATER, COOKED SEASONED CHICKEN BREAST WITH RIB MEAT (BONELESS CHICKEN BREAST WITH RIB MEAT, MIRIN [WATER, MIRIN {WATER, RICE, ALCOHOL, SALT, KOJI}, SUGAR, LACTIC ACID], WATER, TURBINADO SUGAR, LESS THAN 2% SOY SAUCE [WATER, WHEAT, SOYBEANS, SALT], TAPIOCA STARCH, SOYBEAN OIL, SEA SALT, NATURAL FLAVORING), CARROTS, LEEKS, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), MIRIN (WATER, MIRIN [WATER, RICE, ALCOHOL, SALT, ENZYMES, KOJI], SUGAR, LACTIC ACID), CANOLA OIL, PEAS, EDAMAME (SOYBEANS), CONTAINS LESS THAN 2% OF: GARLIC, ONION, RED BELL PEPPER, FIRE ROASTED CORN, SPICE, KELP EXTRACT (KELP EXTRACT, DEXTRIN, WATER, SALT, ALCOHOL, XANTHAN GUM), TOASTED SESAME OIL, SOY SAUCE POWDER (SOY SAUCE [FERMENTED SOYBEANS, WHEAT, SALT], MALTODEXTRIN AND SALT), FLAVOR ENHANCER (YEAST, YEAST EXTRACT), SUGAR, SALT.",
+    "marketCountry": "United States",
+    "servingSize": 312.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "foodAttributes": [],
+            "fdcId": 522036,
+            "description": "FRIED RICE",
+            "publicationDate": "4/1/2019",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/18/2018",
+            "availableDate": "7/18/2018",
+            "brandOwner": "Windsor Quality Food Products Ltd.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Frozen Dinners & Entrees",
+            "gtinUpc": "010878810854",
+            "householdServingFullText": "1 BAG",
+            "ingredients": "RICE, WATER, COOKED SEASONED CHICKEN BREAST WITH RIB MEAT (BONELESS CHICKEN BREAST WITH RIB MEAT, MIRIN [WATER, MIRIN {WATER, RICE, ALCOHOL, SALT, KOJI}, SUGAR, LACTIC ACID], WATER, TURBINADO SUGAR, LESS THAN 2% SOY SAUCE [WATER, WHEAT, SOYBEANS, SALT], TAPIOCA STARCH, SOYBEAN OIL, SEA SALT, NATURAL FLAVORING), CARROTS, LEEKS, SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), MIRIN (WATER, MIRIN [WATER, RICE, ALCOHOL, SALT, ENZYMES, KOJI], SUGAR, LACTIC ACID), CANOLA OIL, PEAS, EDAMAME (SOYBEANS), CONTAINS LESS THAN 2% OF: GARLIC, ONION, RED BELL PEPPER, FIRE ROASTED CORN, SPICE, KELP EXTRACT (KELP EXTRACT, DEXTRIN, WATER, SALT, ALCOHOL, XANTHAN GUM), TOASTED SESAME OIL, SOY SAUCE POWDER (SOY SAUCE [FERMENTED SOYBEANS, WHEAT, SALT], MALTODEXTRIN AND SALT), FLAVOR ENHANCER (YEAST, YEAST EXTRACT), SUGAR, SALT.",
+            "marketCountry": "United States",
+            "servingSize": 312.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 10.0152
+        },
+        "saturatedFat": {
+            "value": 0.9984
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 34.32
+        },
+        "sodium": {
+            "value": 1188.72
+        },
+        "carbohydrates": {
+            "value": 84.9888
+        },
+        "fiber": {
+            "value": 3.12
+        },
+        "sugars": {
+            "value": 8.9856
+        },
+        "protein": {
+            "value": 23.9928
+        },
+        "calcium": {
+            "value": 40.56
+        },
+        "iron": {
+            "value": 1.8096
+        },
+        "calories": {
+            "value": 530.4
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+
+  "Recipes" : {
+    "hotdog" : {
+	  "servingSize" : 45.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 109.8,
+	  "fat" : 9.0,
+	  "carbohydrates" : 1.998,
+	  "protein" : 4.0005,
+      "foodname" : "hotdog",
+	  "foodID" : "475236"
+    },
+    "spaghetti" : {
+	  "servingSize" : 56.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 199.92,
+	  "fat" : 1.0024,
+	  "carbohydrates" : 40.9976,
+	  "protein" : 7.0,
+      "foodname" : "spaghetti",
+	  "foodID" : "544026"
+    },
+    "fried rice" : {
+	  "servingSize" : 312.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 199.92,
+	  "fat" : 13.0104,
+	  "carbohydrates" : 88.0152,
+	  "protein" : 17.004,
+      "foodname" : "fried rice",
+	  "foodID" : "559275"
+    },
+    "burrito" : {
+	  "servingSize" : 312.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 530.4,
+	  "fat" : 13.0104,
+	  "carbohydrates" : 88.0152,
+	  "protein" : 17.004,
+      "foodname" : "burrito",
+	  "foodID" : "387851"
+    },
+    "honey ham" : {
+	  "servingSize" : 56.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 70.0,
+	  "fat" : 1.9992,
+	  "carbohydrates" : 3.9984,
+	  "protein" : 8.9992,
+      "foodname" : "honey ham",
+	  "foodID" : "583721"
+    },
+  },
+
+}

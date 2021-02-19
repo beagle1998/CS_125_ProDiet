@@ -1,0 +1,134 @@
+{
+    "Recipes": {
+        "hotdog": {
+            "servingSize": 45.0,
+            "fdcID": 475236,
+            "calories": 109.8,
+            "carbohydrates": 1.998,
+            "fat": 9.0,
+            "protein": 4.0005,
+            "sugars": 0.999,
+            "vegan": "no"
+        },
+        "spaghetti": {
+            "servingSize": 150.0,
+            "fdcID": 478339,
+            "calories": 250.5,
+            "carbohydrates": 46.005,
+            "fat": 4.005,
+            "protein": 7.995,
+            "sugars": 1.005,
+            "vegan": "yes"
+        },
+        "corndogs": {
+            "servingSize": 76.0,
+            "fdcID": 480676,
+            "calories": 219.64,
+            "carbohydrates": 24.0008,
+            "fat": 10.9972,
+            "protein": 5.9964,
+            "sugars": 8.9984,
+            "vegan": "no"
+        },
+        "salad": {
+            "servingSize": 85.0,
+            "fdcID": 356632,
+            "calories": 15.3,
+            "carbohydrates": 3.0005,
+            "fat": 0.0,
+            "protein": 1.9975,
+            "sugars": 1.003,
+            "vegan": "yes"
+        },
+        "salmon": {
+            "servingSize": 142.0,
+            "fdcID": 512958,
+            "calories": 299.62,
+            "carbohydrates": 4.9984,
+            "fat": 18.0056,
+            "protein": 28.0024,
+            "sugars": 2.9962,
+            "vegan": "no"
+        },
+        "meatball": {
+            "servingSize": 85.0,
+            "fdcID": 571989,
+            "calories": 159.8,
+            "carbohydrates": 4.0035,
+            "fat": 9.0015,
+            "protein": 15.997,
+            "sugars": 1.003,
+            "vegan": "no"
+        },
+        "ham sandwich": {
+            "servingSize": 215.0,
+            "fdcID": 460136,
+            "calories": 380.55,
+            "carbohydrates": 39.001,
+            "fat": 11.008,
+            "protein": 27.004,
+            "sugars": 5.0095,
+            "vegan": "no"
+        },
+        "granola": {
+            "servingSize": 28.0,
+            "fdcID": 565809,
+            "calories": 129.92,
+            "carbohydrates": 13.0004,
+            "fat": 7.9996,
+            "protein": 4.0012,
+            "sugars": 5.0008,
+            "vegan": "no"
+        },
+        "pasta legume, elbows": {
+            "servingSize": 56.0,
+            "fdcID": 401935,
+            "calories": 199.92,
+            "carbohydrates": 33.9976,
+            "fat": 0.4984,
+            "protein": 14.0,
+            "sugars": 1.0024,
+            "vegan": "yes"
+        },
+        "pea soup": {
+            "servingSize": 245.0,
+            "fdcID": 382982,
+            "calories": 178.85,
+            "carbohydrates": 30.9925,
+            "fat": 1.0045,
+            "protein": 12.005,
+            "sugars": 2.009,
+            "vegan": "yes"
+        },
+        "chicken noodle soup": {
+            "servingSize": 240.0,
+            "fdcID": 357246,
+            "calories": 129.6,
+            "carbohydrates": 13.992,
+            "fat": 4.512,
+            "protein": 9.0,
+            "sugars": 1.008,
+            "vegan": "no"
+        },
+        "fried chicken": {
+            "servingSize": 85.0,
+            "fdcID": 1155395,
+            "calories": 161.5,
+            "carbohydrates": 3.4,
+            "fat": 10.2,
+            "protein": 13.6,
+            "sugars": 0.0,
+            "vegan": "no"
+        },
+        "fried rice": {
+            "servingSize": 312.0,
+            "fdcID": 522036,
+            "calories": 530.4,
+            "carbohydrates": 84.9888,
+            "fat": 10.0152,
+            "protein": 23.9928,
+            "sugars": 8.9856,
+            "vegan": "no"
+        }
+    }
+}

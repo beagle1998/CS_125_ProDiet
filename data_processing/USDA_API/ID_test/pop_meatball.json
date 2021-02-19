@@ -1,0 +1,330 @@
+{
+    "foodComponents": [],
+    "foodAttributes": [],
+    "foodPortions": [],
+    "fdcId": 571989,
+    "description": "MEATBALL",
+    "publicationDate": "4/1/2019",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308520,
+            "amount": 3.5
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308524,
+            "amount": 3.53
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308515,
+            "amount": 18.82
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308517,
+            "amount": 4.71
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308518,
+            "amount": 188.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308522,
+            "amount": 59.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308521,
+            "amount": 576.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308519,
+            "amount": 1.18
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 5308523,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 5308516,
+            "amount": 10.59
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1104,
+                "number": "318",
+                "name": "Vitamin A, IU",
+                "rank": 7500,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3607253,
+            "amount": 235.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3607254,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 3607252,
+            "amount": 2.12
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure",
+                "foodNutrientSource": {
+                    "id": 9,
+                    "code": "12",
+                    "description": "Manufacturer's analytical; partial documentation"
+                }
+            },
+            "id": 3607251,
+            "amount": 94.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "3/2/2018",
+    "availableDate": "3/2/2018",
+    "brandOwner": "SIMEK'S",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Frozen Bacon, Sausages & Ribs",
+    "gtinUpc": "739063040608",
+    "householdServingFullText": "6 MEATBALLS",
+    "ingredients": "TURKEY, WATER, TEXTURED SOY FLOUR, SOY PROTEIN CONCENTRATE, CONTAINS LESS THAN 2% OF THE FOLLOWING: CORN SYRUP SOLIDS, ISOLATED SOY PRODUCT, SALT, DEXTROSE, DEHYDRATED ONION, SODIUM PHOSPHATE, WHEY, SPICES, HYDROLYZED CORN GLUTEN AND SOY PROTEIN, PAPRIKA, YEAST EXTRACT, CARAMEL COLOR, GRILL FLAVOR (FROM VEGETABLE OIL), DISODIUM INOSINATE AND DISODIUM GUANYLATE, SEASONING [BUTTER (CREAM, SALT, ANNATTO), SMOKE FLAVOR], SPICE EXTRACTIVES.",
+    "marketCountry": "United States",
+    "servingSize": 85.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "foodAttributes": [],
+            "fdcId": 571989,
+            "description": "MEATBALL",
+            "publicationDate": "4/1/2019",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "3/2/2018",
+            "availableDate": "3/2/2018",
+            "brandOwner": "SIMEK'S",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Frozen Bacon, Sausages & Ribs",
+            "gtinUpc": "739063040608",
+            "householdServingFullText": "6 MEATBALLS",
+            "ingredients": "TURKEY, WATER, TEXTURED SOY FLOUR, SOY PROTEIN CONCENTRATE, CONTAINS LESS THAN 2% OF THE FOLLOWING: CORN SYRUP SOLIDS, ISOLATED SOY PRODUCT, SALT, DEXTROSE, DEHYDRATED ONION, SODIUM PHOSPHATE, WHEY, SPICES, HYDROLYZED CORN GLUTEN AND SOY PROTEIN, PAPRIKA, YEAST EXTRACT, CARAMEL COLOR, GRILL FLAVOR (FROM VEGETABLE OIL), DISODIUM INOSINATE AND DISODIUM GUANYLATE, SEASONING [BUTTER (CREAM, SALT, ANNATTO), SMOKE FLAVOR], SPICE EXTRACTIVES.",
+            "marketCountry": "United States",
+            "servingSize": 85.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 9.0015
+        },
+        "saturatedFat": {
+            "value": 3.0005
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 50.15
+        },
+        "sodium": {
+            "value": 489.6
+        },
+        "carbohydrates": {
+            "value": 4.0035
+        },
+        "fiber": {
+            "value": 2.975
+        },
+        "sugars": {
+            "value": 1.003
+        },
+        "protein": {
+            "value": 15.997
+        },
+        "calcium": {
+            "value": 79.9
+        },
+        "iron": {
+            "value": 1.802
+        },
+        "calories": {
+            "value": 159.8
+        }
+    }
+}

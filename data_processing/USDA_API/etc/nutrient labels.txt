@@ -1,0 +1,36 @@
+dict_keys(['foodComponents', 'foodAttributes', 'foodPortions', 'fdcId', 'description', 'publicationDate', 'foodNutrients', 'dataType', 'foodClass', 'modifiedDate', 'availableDate', 'brandOwner', 'dataSource', 'brandedFoodCategory', 'gtinUpc', 'householdServingFullText', 'ingredients', 'marketCountry', 'servingSize', 'servingSizeUnit', 'foodUpdateLog', 'labelNutrients'])        
+PS C:\Users\tajun> 
+
+labelNutrients
+{'fat': {'value': 8.9992}, 'saturatedFat': {'value': 6.0004}, 'transFat': {'value': 0.0}, 'cholesterol': {'value': 29.96}, 'sodium': {'value': 180.04}, 'carbohydrates': {'value': 0.0}, 'fiber': {'value': 0.0}, 'sugars': {'value': 0.0}, 'protein': {'value': 7.0}, 'calcium': {'value': 199.92}, 'iron': {'value': 0.0}, 'calories': {'value': 110.04}}
+
+{"Cheddar Cheese": {
+
+{	
+ "Recipes" : {
+    "hotdog" : {
+	  "servingSize" : 45.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 109.8,
+	  "fat" : 9.0,
+	  "carbohydrates" : 1.998,
+	  "protein" : 4.0005,
+      "foodname" : "hotdog",
+	  "foodID" : "475236"
+    },
+}
+ "Recipes" : {
+    "hotdog" : {
+	  "servingSize" : 45.0,
+	  "servingSizeUnit" : "g",
+	  "calories" : 109.8,
+	  "fat" : 9.0,
+	  "carbohydrates" : 1.998,
+	  "protein" : 4.0005,
+      "foodname" : "hotdog",
+	  "foodID" : "475236"
+    },
+
+
+
+
