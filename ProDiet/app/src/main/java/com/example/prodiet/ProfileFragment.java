@@ -98,7 +98,7 @@ public class ProfileFragment extends Fragment {
     }
 
     public void UIUpdate() {
-        profile_info.setText(User.printString());
+        profile_info.setText(User.profileString());
     }
 
 }

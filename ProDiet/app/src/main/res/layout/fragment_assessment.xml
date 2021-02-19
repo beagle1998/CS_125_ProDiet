@@ -26,12 +26,28 @@
 
 
     <TextView
-        android:id="@+id/assessment_result"
+        android:id="@+id/assessment_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/assessment_title"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="40dp"
+        android:text="          "
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:id="@+id/assessment_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assessment_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
         android:text="          "
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"

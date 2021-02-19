@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 
 public class AssessmentFragment extends Fragment {
 
+    private TextView assessment_info;
     private TextView assessment_result;
 
     @Nullable
@@ -24,7 +25,10 @@ public class AssessmentFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        assessment_info = getView().findViewById(R.id.assessment_info);
         assessment_result = getView().findViewById(R.id.assessment_result);
+
+        assessment_info.setText(User.assessmentString());
         assessment_result.setText("Your body status: \n" + Utils.weightStatus(User.getHeight(), User.getWeight()));
     }
 }
