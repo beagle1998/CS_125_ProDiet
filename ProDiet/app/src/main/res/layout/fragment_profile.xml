@@ -24,13 +24,30 @@
         android:textStyle="bold"
         android:typeface="serif" />
 
+
+    <TextView
+        android:id="@+id/profile_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="          "
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+
     <EditText
         android:id="@+id/profile_height"
         android:maxLength="6"
         android:inputType="numberDecimal|number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_title"
+        android:layout_below="@+id/profile_info"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
@@ -58,30 +75,13 @@
 
 
     <EditText
-        android:id="@+id/profile_birthyear"
-        android:maxLength="4"
-        android:inputType="number"
+        android:id="@+id/profile_gender"
+        android:maxLength="10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/profile_weight"
         android:layout_alignEnd="@+id/profile_weight"
         android:layout_alignRight="@+id/profile_weight"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:hint="birth year"
-        android:typeface="serif" />
-
-
-    <EditText
-        android:id="@+id/profile_gender"
-        android:maxLength="10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_birthyear"
-        android:layout_alignEnd="@+id/profile_birthyear"
-        android:layout_alignRight="@+id/profile_birthyear"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="5dp"

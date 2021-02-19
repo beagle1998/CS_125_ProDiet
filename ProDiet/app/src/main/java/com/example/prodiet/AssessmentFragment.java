@@ -25,6 +25,6 @@ public class AssessmentFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         assessment_result = getView().findViewById(R.id.assessment_result);
-        assessment_result.setText("Your body status: " + Utils.weightStatus(User.getHeight(), User.getWeight()));
+        assessment_result.setText("Your body status: \n" + Utils.weightStatus(User.getHeight(), User.getWeight()));
     }
 }

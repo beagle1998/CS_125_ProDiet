@@ -78,11 +78,11 @@ public class MainFragment extends Fragment {
 //        food_list.add(new Food("sample food 2", "14345", 312.1,
 //                143.0, 423.1, 771.3, 21.1));
 
-//        double proper_calorie = Utils.caloriePerMeal(User.getGender(), User.getHeight(), User.getWeight(), User.getBirthyear());
-        double proper_calorie = 150.0; // TODO: add index to firebase and calculate calorie using above line
+        double proper_calorie = Utils.caloriePerMeal(User.getGender(), User.getHeight(), User.getWeight(), User.getBirthyear());
+        // TODO: add index to firebase
 
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
-        Query query = fb_ref.child("Recipes").orderByChild("calories").endAt(proper_calorie).limitToFirst(2);
+        Query query = fb_ref.child("Recipes").orderByChild("calories").startAt(0.1).endAt(proper_calorie).limitToFirst(5);
         query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -143,7 +143,7 @@ public class MainFragment extends Fragment {
                 if (error != null) {
                     Toast.makeText(getActivity(), error.getMessage(), Toast.LENGTH_LONG).show();
                 } else {
-                    Toast.makeText(getActivity(), "Food history recorded!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity(), "Food history recorded!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

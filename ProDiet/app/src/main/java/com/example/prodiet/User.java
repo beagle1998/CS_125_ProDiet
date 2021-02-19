@@ -80,4 +80,13 @@ public class User {
         return User.username == null && User.password == null;
     }
 
+    public static String printString() {
+        return "username: " + User.username
+                + "\ngender: " + User.gender
+                + "\nheight: " + User.height
+                + "\nweight: " + User.weight
+                + "\nbirthyear: " + User.birthyear
+                + "\nvegan: " + User.vegan;
+    }
+
 }

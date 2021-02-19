@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -22,9 +23,9 @@ import java.util.HashMap;
 
 public class ProfileFragment extends Fragment {
 
+    private TextView profile_info;
     private EditText profile_height;
     private EditText profile_weight;
-    private EditText profile_birthyear;
     private EditText profile_gender;
     private CheckBox profile_vegan;
     private Button profile_update;
@@ -39,13 +40,14 @@ public class ProfileFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
+        profile_info = getView().findViewById(R.id.profile_info);
         profile_height = getView().findViewById(R.id.profile_height);
         profile_weight = getView().findViewById(R.id.profile_weight);
-        profile_birthyear = getView().findViewById(R.id.profile_birthyear);
         profile_gender = getView().findViewById(R.id.profile_gender);
         profile_vegan = getView().findViewById(R.id.profile_vegan);
         profile_update = getView().findViewById(R.id.profile_update);
 
+        UIUpdate();
         profile_update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,9 +63,6 @@ public class ProfileFragment extends Fragment {
         String weight_string = profile_weight.getText().toString().trim();
         final Double weight = ( weight_string.isEmpty() ? User.getWeight() : Double.valueOf(weight_string) );
 
-        String birthyear_string = profile_birthyear.getText().toString().trim();
-        final Integer birthyear = ( birthyear_string.isEmpty() ? User.getBirthyear() : Integer.valueOf(birthyear_string) );
-
         String gender_string = profile_gender.getText().toString().trim();
         final String gender = ( gender_string.isEmpty() ? User.getGender() : gender_string );
 
@@ -75,7 +74,7 @@ public class ProfileFragment extends Fragment {
         hashMap.put("password", User.getPassword());
         hashMap.put("height", height);
         hashMap.put("weight", weight);
-        hashMap.put("birthyear", birthyear);
+        hashMap.put("birthyear", User.getBirthyear());
         hashMap.put("gender", gender);
         hashMap.put("vegan", vegan);
 
@@ -88,14 +87,18 @@ public class ProfileFragment extends Fragment {
                 } else {
                     User.setHeight(height);
                     User.setWeight(weight);
-                    User.setBirthyear(birthyear);
                     User.setGender(gender);
                     User.setVegan(vegan);
+                    UIUpdate();
                     Toast.makeText(getActivity(), "Update successful!", Toast.LENGTH_LONG).show();
                 }
             }
         });
 
+    }
+
+    public void UIUpdate() {
+        profile_info.setText(User.printString());
     }
 
 }
