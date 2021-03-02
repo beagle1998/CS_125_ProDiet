@@ -1,21 +1,18 @@
 package com.example.prodiet;
 
 public class Food {
-    private String foodname;
-    private String foodID;
+    private String foodName;
     private Double calories;
     private Double carbohydrates;
     private Double fat;
     private Double protein;
     private Double servingSize;
-//    private Integer servingSize;
 
     public Food() { }
 
-    public Food(String foodname, String foodID, Double calories, Double carbohydrates,
+    public Food(String foodName, Double calories, Double carbohydrates,
                 Double fat, Double protein, Double servingSize) {
-        this.foodname = foodname;
-        this.foodID = foodID;
+        this.foodName = foodName;
         this.calories = calories;
         this.carbohydrates = carbohydrates;
         this.fat = fat;
@@ -23,20 +20,12 @@ public class Food {
         this.servingSize = servingSize;
     }
 
-    public String getFoodname() {
-        return foodname;
+    public String getFoodName() {
+        return foodName;
     }
 
-    public void setFoodname(String foodname) {
-        this.foodname = foodname;
-    }
-
-    public String getFoodID() {
-        return foodID;
-    }
-
-    public void setFoodID(String foodID) {
-        this.foodID = foodID;
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
     }
 
     public Double getCalories() {

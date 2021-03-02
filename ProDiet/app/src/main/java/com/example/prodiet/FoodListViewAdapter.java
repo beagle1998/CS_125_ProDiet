@@ -31,7 +31,7 @@ public class FoodListViewAdapter extends ArrayAdapter<Food> {
         TextView food_row_foodname = view.findViewById(R.id.food_row_foodname);
         TextView food_row_calories = view.findViewById(R.id.food_row_calories);
 
-        food_row_foodname.setText(food_item.getFoodname());
+        food_row_foodname.setText(food_item.getFoodName());
         food_row_calories.setText("Calories: " + food_item.getCalories());
 
         return view;

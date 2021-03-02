@@ -29,6 +29,6 @@ public class AssessmentFragment extends Fragment {
         assessment_result = getView().findViewById(R.id.assessment_result);
 
         assessment_info.setText(User.assessmentString());
-        assessment_result.setText("Your body status: \n" + Utils.weightStatus(User.getHeight(), User.getWeight()));
+        assessment_result.setText("Your body status: \n" + MatchingUtils.weightStatus(User.getHeight(), User.getWeight()));
     }
 }

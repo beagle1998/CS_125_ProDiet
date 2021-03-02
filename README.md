@@ -10,6 +10,6 @@
 
 ### Team Members
 - Tyler Mun: locate & process online data
-- Jing Yang: backend development
-- Sally Huynh: build model for recommendation & ranking
-- Hoijong Kim: UI desgin
+- Jing Yang: backend development & ranking design
+- Sally Huynh: matching design
+- Hoijong Kim: UI desgin & testing

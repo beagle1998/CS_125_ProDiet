@@ -2,7 +2,7 @@ package com.example.prodiet;
 
 import java.util.Calendar;
 
-public class Utils {
+public class MatchingUtils {
 
     public static double calculateBMI(double height, double weight) {
         return (weight / (height * height)) * 10000;
@@ -54,10 +54,27 @@ public class Utils {
         }
     }
 
+    static String activity(int steps){
+        if (steps <= 5000){
+            return "sedentary";
+        }
+        else if (steps > 5000 && steps <= 7500){
+            return "lightly active";
+        }
+        else if (steps > 7500 && steps <= 10000){
+            return "moderately active";
+        }
+        else if (steps > 10000 && steps <= 12500){
+            return "very active";
+        }
+        else if (steps > 12500){
+            return "extra active";
+        }
+        return "Error in Activity";
+    }
 
-    public static double normalCalorie(double bmr) {
+    public static double normalCalorie(double bmr, String activity) {
         // Calories needed to maintain same weight
-        String activity = "lightly active";
         double activityFactor = 0;
         if (activity.equals("sedentary")) {
             activityFactor = 1.2;
@@ -78,7 +95,7 @@ public class Utils {
     }
 
 
-    public static double actualCalorie(String gender, double height, double weight, int age) {
+    public static double actualCalorie(String gender, double height, double weight, int age, Integer steps) {
         // Recommended calories per day to reach ideal weight using recommended weight loss rate of one lb per week or 3500 calories per week
         // 3500 calories per lb but 7700 calories per kg
         int weightLossRate = 3500;
@@ -87,11 +104,15 @@ public class Utils {
         int totalCalorieDeficit = (weight - idealWeight(gender, height)) * 7700;
         dietLength = totalCalorieDeficit/weightLossRate;
         */
-        return normalCalorie(calculateBMR(gender, height, weight, age)) - (weightLossRate / 7);
+        if (steps == null){
+            return normalCalorie(calculateBMR(gender, height, weight, age), "lightly active") - (weightLossRate/7);
+        } else {
+            return normalCalorie(calculateBMR(gender, height, weight, age), activity(steps)) - (weightLossRate/7);
+        }
     }
 
 
-    public static double caloriePerMeal(String gender, double height, double weight, int birthyear) {
+    public static double caloriePerMeal(String gender, double height, double weight, int birthyear, Integer steps) {
         Calendar now = Calendar.getInstance();
 
         int currYear = now.get(Calendar.YEAR);
@@ -111,8 +132,26 @@ public class Utils {
         else {
             mealFactor = 0;
         }
-        return mealFactor * actualCalorie(gender, height, weight, age);
+        return mealFactor * actualCalorie(gender, height, weight, age, steps);
     }
+
+
+    public static String mealType() {
+        int currHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
+        if (currHour >= 0 && currHour < 12){
+            return "Breakfast";
+        } else if (currHour >= 12 && currHour < 16){
+            return "Lunch";
+        } else {
+            return "Dinner";
+        }
+    }
+
+    public static String categoryPath(boolean vegan) {
+        String vegan_string = vegan ? "Vegan" : "Nonvegan";
+        return "Recipes/" + vegan_string + "/" + mealType();
+    }
+
 
     public static void pseudoMain() {
         double weight = 72;
@@ -120,8 +159,10 @@ public class Utils {
         String gender = "male";
         int birthyear = 2003;
 
+        Integer steps = 5000;
+
         System.out.println(weightStatus(height, weight));
-        System.out.println(caloriePerMeal(gender, height, weight, birthyear));
+        System.out.println(caloriePerMeal(gender, height, weight, birthyear, steps));
 
         /*
         Notes:
