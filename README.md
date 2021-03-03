@@ -9,7 +9,7 @@
 
 
 ### Team Members
-- Tyler Mun: locate & process online data
-- Jing Yang: backend development & ranking design
-- Sally Huynh: matching design
-- Hoijong Kim: UI desgin & testing
+- Tyler Mun: locate & process online data from USDA
+- Jing Yang: build up communication between front-end/back-end & ranking system
+- Sally Huynh: build up matching system
+- Hoijong Kim: design App UI & testing
