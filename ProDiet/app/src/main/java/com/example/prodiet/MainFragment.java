@@ -63,11 +63,11 @@ public class MainFragment extends Fragment {
                     public boolean onMenuItemClick(MenuItem item) {
 //                        Toast.makeText(getActivity(), "Clicked popup menu item " + item.getTitle(), Toast.LENGTH_SHORT).show();
                         if (item.getTitle().equals("Light")) {
-                            getRecommend(6250); // 5000 to 7499 steps
+                            matching(6250, false, 0); // 5000 to 7499 steps
                         } else if (item.getTitle().equals("Moderate")) {
-                            getRecommend(8750); // 7500 to 9999 steps
+                            matching(8750, false, 0); // 7500 to 9999 steps
                         } else if (item.getTitle().equals("Active")) {
-                            getRecommend(11250); // >= 10000 steps
+                            matching(11250, false, 0); // >= 10000 steps
                         }
                         return true;
                     }
@@ -87,27 +87,29 @@ public class MainFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Food food = food_list.get(position);
-                updateHistory(food);
+                feedback(food);
 //                Toast.makeText(getActivity(), "You clicked: "+food.getFoodName(), Toast.LENGTH_LONG).show();
             }
         });
     }
 
 
-    public void getRecommend(Integer steps) {
+    public void matching(final Integer steps, boolean less_possible, final int recur_counter) {
 
 //        food_list.add(new Food("sample food 1", 723.5,
 //                456.3, 123.2, 131.3, 55.1));
 //        food_list.add(new Food("sample food 2", 312.1,
 //                143.0, 423.1, 771.3, 21.1));
 
-//        double proper_calorie = MatchingUtils.caloriePerMeal(User.getGender(),
-//                User.getHeight(), User.getWeight(), User.getBirthyear(), steps);
-        // TODO: remove this line of hardcode, and uncomment above line
-        double proper_calorie = 1000;
+        double proper_calorie = MatchingUtils.caloriePerMeal(User.getGender(),
+                User.getHeight(), User.getWeight(), User.getBirthyear(), steps);
 
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
-        Query query = fb_ref.child(MatchingUtils.categoryPath(User.getVegan())).orderByChild("calories").startAt(100.1).endAt(proper_calorie).limitToFirst(8);
+        Query query = less_possible ?
+                fb_ref.child(MatchingUtils.categoryPath(User.getVegan()))
+                        .orderByChild("calories").limitToFirst(7) :
+                fb_ref.child(MatchingUtils.categoryPath(User.getVegan()))
+                        .orderByChild("calories").startAt(0.1).endAt(proper_calorie).limitToFirst(7);
         query.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -130,10 +132,14 @@ public class MainFragment extends Fragment {
                         adapter.notifyDataSetChanged();
 //                        food_map.clear();
                     }
+                    ranking();
                 }
                 else {
-                    //TODO: although there is no matched item, do sth, eg: give a low calorie food item
-                    Toast.makeText(getActivity(), "No proper food found!", Toast.LENGTH_LONG).show();
+                    if (recur_counter < 3) {
+                        matching(steps, true, recur_counter+1);
+                    } else {
+                        Toast.makeText(getActivity(), "No proper food found!", Toast.LENGTH_LONG).show(); // should never happened
+                    }
                 }
             }
             @Override
@@ -144,7 +150,7 @@ public class MainFragment extends Fragment {
     }
 
 
-    public void updateHistory(final Food food) {
+    public void feedback(final Food food) {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         fb_ref.child("History/"+User.getUsername()+"/"+food.getFoodName()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -173,13 +179,18 @@ public class MainFragment extends Fragment {
         });
     }
 
-    public void rankResults() {
+    public void ranking() {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         fb_ref.child("History/"+User.getUsername()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    Map<?,?> history_map = (Map)dataSnapshot.getValue();
+                    RankingUtils.rankFoodList(food_list, history_map);
+                    adapter.notifyDataSetChanged();
+//                        history_map.clear();
+                }
             }
-
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 Toast.makeText(getActivity(), "Please try again!", Toast.LENGTH_LONG).show();

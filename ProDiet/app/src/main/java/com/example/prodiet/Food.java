@@ -67,4 +67,9 @@ public class Food {
     public void setServingSize(Double servingSize) {
         this.servingSize = servingSize;
     }
+
+    public String itemString() {
+        return String.format("Calories:%.1f Protein:%.1f Carbohydrates:%.1f Fat:%.1f",
+                this.calories, this.protein, this.carbohydrates, this.fat);
+    }
 }

@@ -1,0 +1,30 @@
+{
+    "rules" : {
+        ".read": true,
+        ".write": true,
+        "Recipes" : {
+            "Vegan" : {
+                "Breakfast" : {
+                    ".indexOn" : ["calories"]
+                },
+                "Lunch" : {
+                    ".indexOn" : ["calories"]
+                },
+                "Dinner" : {
+                    ".indexOn" : ["calories"]
+                }
+            },
+            "Nonvegan" : {
+                "Breakfast" : {
+                    ".indexOn" : ["calories"]
+                },
+                "Lunch" : {
+                    ".indexOn" : ["calories"]
+                },
+                "Dinner" : {
+                    ".indexOn" : ["calories"]
+                }
+            }
+        }
+    }
+}

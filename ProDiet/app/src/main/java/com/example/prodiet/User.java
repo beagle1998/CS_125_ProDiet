@@ -81,19 +81,13 @@ public class User {
     }
 
     public static String profileString() {
-        return "username: " + User.username
-                + "\ngender: " + User.gender
-                + "\nheight: " + User.height
-                + "\nweight: " + User.weight
-                + "\nbirthyear: " + User.birthyear
-                + "\nvegan: " + User.vegan;
+        return String.format("Username: %s\nGender: %s\nHeight: %.1fcm & Weight: %.1fkg\nBirthyear: %d\nVegan: %b",
+                User.username, User.gender, User.height, User.weight, User.birthyear, User.vegan);
     }
 
     public static String assessmentString() {
-        return "gender: " + User.gender
-                + "\nheight: " + User.height
-                + "\nweight: " + User.weight
-                + "\nbirthyear: " + User.birthyear;
+        return String.format("Gender: %s\nHeight: %.1fcm\nWeight: %.1fkg\nBirthyear: %d",
+                User.gender, User.height, User.weight, User.birthyear);
     }
 
 }

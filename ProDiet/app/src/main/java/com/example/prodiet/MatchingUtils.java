@@ -16,10 +16,10 @@ public class MatchingUtils {
         else if (bmi >= 18.5 && bmi <= 24.9) {
             return "normal";
         }
-        else if (bmi >= 25 && bmi <= 29.9) {
+        else if (bmi > 24.9 && bmi <= 29.9) {
             return "overweight";
         }
-        else if (bmi >= 30) {
+        else if (bmi >29) {
             return "obese";
         } else {
             return "weight status error";
@@ -28,15 +28,26 @@ public class MatchingUtils {
 
     public static double idealWeight(String gender, double height) {
         // Calculated using Devine Equation
-        if (gender.equals("female")) {
+        if (gender.equals("male")) {
             return 50 + 0.9 * (height - 152);
         }
-        else if (gender.equals("male")) {
+        else if (gender.equals("female")) {
             return 45.5 + 0.9 * (height - 152);
         }
         else {
             return 0;
         }
+        //ALTERNATIVE IDEAL WEIGHT FORMULA(LORENTZ)
+        /**
+         *         if (gender.equals("male")) {
+         *             return (height - 100) - ((height - 150)/4);
+         *         }
+         *         else if (gender.equals("female")) {
+         *             return (height - 100) - ((height - 150)/2);
+         *         }
+         *         else {
+         *             return 0;
+         *         }**/
     }
 
 
@@ -104,10 +115,22 @@ public class MatchingUtils {
         int totalCalorieDeficit = (weight - idealWeight(gender, height)) * 7700;
         dietLength = totalCalorieDeficit/weightLossRate;
         */
-        if (steps == null){
-            return normalCalorie(calculateBMR(gender, height, weight, age), "lightly active") - (weightLossRate/7);
+        int weightChangeRate = 0;
+        double weightDiff = weight - idealWeight(gender, height);
+        if (weightDiff > 0){
+            // overweight
+            weightChangeRate = -3500;
+        } else if (weightDiff == 0) {
+            // ideal weight
+            weightChangeRate = 0;
         } else {
-            return normalCalorie(calculateBMR(gender, height, weight, age), activity(steps)) - (weightLossRate/7);
+            // underweight
+            weightChangeRate = 3500;
+        }
+        if (steps == null){
+            return normalCalorie(calculateBMR(gender, height, weight, age), "lightly active") + (weightChangeRate/7);
+        } else{
+            return normalCalorie(calculateBMR(gender, height, weight, age), activity(steps)) + (weightChangeRate/7);
         }
     }
 
@@ -119,7 +142,7 @@ public class MatchingUtils {
         int age = currYear - birthyear;
         double mealFactor = 0;
         int currHour = now.get(Calendar.HOUR_OF_DAY);
-
+        System.out.println("Time: " + currHour);
         if (currHour >= 16 && currHour <= 24){
             mealFactor = 0.3;
         }
@@ -158,11 +181,10 @@ public class MatchingUtils {
         double height = 178;
         String gender = "male";
         int birthyear = 2003;
-
         Integer steps = 5000;
 
-        System.out.println(weightStatus(height, weight));
-        System.out.println(caloriePerMeal(gender, height, weight, birthyear, steps));
+        System.out.println("Weight Status: " + weightStatus(height, weight));
+        System.out.println("Calories next meal: " + caloriePerMeal(gender, height, weight, birthyear, steps));
 
         /*
         Notes:

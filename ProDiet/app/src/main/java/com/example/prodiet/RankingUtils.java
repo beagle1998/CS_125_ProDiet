@@ -7,17 +7,27 @@ import java.util.Map;
 
 public class RankingUtils {
 
-    public static void sortFoodList(ArrayList<Food> food_list, Map<String, Long> history_map) {
+    public static void rankFoodList(ArrayList<Food> food_list, final Map<?, ?> history_map) {
         Collections.sort(food_list, new Comparator<Food>() {
 
             @Override
             public int compare(final Food f1, final Food f2) {
-                int c;
-                c = f1.getFat().compareTo(f2.getFat());
-                if (c == 0)
-                    c = f1.getCarbohydrates().compareTo(f2.getCarbohydrates());
-                if (c == 0)
-                    c = f1.getProtein().compareTo(f2.getProtein());
+                Long f1freq = (Long)history_map.get(f1.getFoodName());
+                if (f1freq == null) {
+                    f1freq = 0L;
+                }
+                Long f2freq = (Long)history_map.get(f2.getFoodName());
+                if (f2freq == null) {
+                    f2freq = 0L;
+                }
+
+                int c = -(f1freq).compareTo(f2freq);
+                if (c == 0) {
+                    c = f1.getFat().compareTo(f2.getFat());
+                }
+//                if (c == 0) {
+//                    c = -f1.getProtein().compareTo(f2.getProtein());
+//                }
                 return c;
             }
 

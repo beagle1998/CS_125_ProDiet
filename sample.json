@@ -1,0 +1,169 @@
+{
+  "History" : {
+    "Rose" : {
+      "oatmeal" : 1
+    },
+    "Trump" : {
+      "honey ham" : 7,
+      "hotdog" : 3,
+      "leek soup, cream of, prepared with milk" : 5,
+      "pumpkin soup" : 1,
+      "roasted corn" : 1
+    }
+  },
+  "Recipes" : {
+    "Nonvegan" : {
+      "Breakfast" : {
+        "artificial chicken porridge" : {
+          "calories" : 300.0,
+          "carbohydrates" : 56.004,
+          "fat" : 5.004,
+          "fdcID" : 1305871,
+          "foodName" : "artificial chicken porridge",
+          "protein" : 8.004,
+          "servingSize" : 120.0
+        },
+        "banana bread" : {
+          "calories" : 239.97,
+          "carbohydrates" : 38.9994,
+          "fat" : 9.0003,
+          "fdcID" : 1271239,
+          "foodName" : "banana bread",
+          "protein" : 2.9982,
+          "servingSize" : 57.0
+        }
+      },
+      "Dinner" : {
+        "beef and broccoli" : {
+          "calories" : 157.0,
+          "carbohydrates" : 5.31,
+          "fat" : 10.65,
+          "fdcID" : 1099599,
+          "foodName" : "beef and broccoli",
+          "protein" : 10.55,
+          "servingSize" : 163.0
+        },
+        "beef brisket, cooked, lean and fat eaten" : {
+          "calories" : 289.0,
+          "carbohydrates" : 0.0,
+          "fat" : 19.36,
+          "fdcID" : 1098209,
+          "foodName" : "beef brisket, cooked, lean and fat eaten",
+          "protein" : 26.57,
+          "servingSize" : 67.0
+        }
+      },
+      "Lunch" : {
+        "baked chicken" : {
+          "calories" : 239.7,
+          "carbohydrates" : 27.0045,
+          "fat" : 7.0125,
+          "fdcID" : 1346183,
+          "foodName" : "baked chicken",
+          "protein" : 18.003,
+          "servingSize" : 255.0
+        },
+        "baked potato" : {
+          "calories" : 169.86,
+          "carbohydrates" : 18.0006,
+          "fat" : 8.0028,
+          "fdcID" : 1359546,
+          "foodName" : "baked potato",
+          "protein" : 4.0014,
+          "servingSize" : 114.0
+        }
+      }
+    },
+    "Vegan" : {
+      "Breakfast" : {
+        "apple" : {
+          "calories" : 110.4,
+          "carbohydrates" : 28.008,
+          "fat" : 0.0,
+          "fdcID" : 1356023,
+          "foodName" : "apple",
+          "protein" : 0.0,
+          "servingSize" : 240.0
+        },
+        "avocado dressing" : {
+          "calories" : 427.0,
+          "carbohydrates" : 7.36,
+          "fat" : 43.33,
+          "fdcID" : 1103883,
+          "foodName" : "avocado dressing",
+          "protein" : 1.9,
+          "servingSize" : 31.0
+        }
+      },
+      "Dinner" : {
+        "asian stir fry vegetables, cooked, fat added" : {
+          "calories" : 67.0,
+          "carbohydrates" : 9.55,
+          "fat" : 2.82,
+          "fdcID" : 1103625,
+          "foodName" : "asian stir fry vegetables, cooked, fat added",
+          "protein" : 2.09,
+          "servingSize" : 66.0
+        },
+        "asparagus, raw" : {
+          "calories" : 85.0,
+          "carbohydrates" : 3.88,
+          "fat" : 0.12,
+          "fdcID" : 168389,
+          "foodName" : "asparagus, raw",
+          "protein" : 2.2,
+          "servingSize" : 12.0
+        }
+      },
+      "Lunch" : {
+        "beet salad" : {
+          "calories" : 211.11,
+          "carbohydrates" : 24.9927,
+          "fat" : 12.0083,
+          "fdcID" : 531096,
+          "foodName" : "beet salad",
+          "protein" : 2.9964,
+          "servingSize" : 227.0
+        },
+        "blackeyed peas" : {
+          "calories" : 100.1,
+          "carbohydrates" : 16.003,
+          "fat" : 0.494,
+          "fdcID" : 1196043,
+          "foodName" : "blackeyed peas",
+          "protein" : 7.995,
+          "servingSize" : 130.0
+        }
+      }
+    }
+  },
+  "Users" : {
+    "Jack" : {
+      "birthyear" : 1985,
+      "gender" : "male",
+      "height" : 176.5,
+      "password" : "jackpwd",
+      "username" : "Jack",
+      "vegan" : false,
+      "weight" : 77.3
+    },
+    "Rose" : {
+      "birthyear" : 1995,
+      "gender" : "female",
+      "height" : 173,
+      "password" : "rosepwd",
+      "username" : "Rose",
+      "vegan" : true,
+      "weight" : 47.1
+    },
+    "Trump" : {
+      "birthyear" : 1946,
+      "gender" : "male",
+      "height" : 191,
+      "password" : "trumppwd",
+      "username" : "Trump",
+      "vegan" : false,
+      "weight" : 146.1
+    }
+  }
+}
