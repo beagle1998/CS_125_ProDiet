@@ -36,6 +36,7 @@ public class MainFragment extends Fragment {
     private ListView main_recommend;
     private FoodListViewAdapter adapter;
 
+    private Food foodHistory;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,6 +44,9 @@ public class MainFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
+    public Food getFoodHistory() {
+        return foodHistory;
+    }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
@@ -88,6 +92,7 @@ public class MainFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Food food = food_list.get(position);
                 feedback(food);
+                foodHistory = food;
 //                Toast.makeText(getActivity(), "You clicked: "+food.getFoodName(), Toast.LENGTH_LONG).show();
             }
         });
