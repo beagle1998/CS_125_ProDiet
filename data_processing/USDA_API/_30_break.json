@@ -1,0 +1,525 @@
+{
+    "Recipes": {
+        "Nonvegan": {
+            "Breakfast": {
+                "scrambled eggs": {
+                    "servingSize": 124.0,
+                    "foodName": "scrambled eggs",
+                    "fdcID": 1256366,
+                    "calories": 140.12,
+                    "carbohydrates": 1.9964,
+                    "fat": 7.998,
+                    "protein": 13.9996
+                },
+                "yogurt": {
+                    "servingSize": 170.0,
+                    "foodName": "yogurt",
+                    "fdcID": 480870,
+                    "calories": 110.5,
+                    "carbohydrates": 10.999,
+                    "fat": 4.998,
+                    "protein": 4.998
+                },
+                "yogurt parfait": {
+                    "servingSize": 122.0,
+                    "foodName": "yogurt parfait",
+                    "fdcID": 481014,
+                    "calories": 150.06,
+                    "carbohydrates": 27.999,
+                    "fat": 2.0008,
+                    "protein": 4.0016
+                },
+                "granola": {
+                    "servingSize": 28.0,
+                    "foodName": "granola",
+                    "fdcID": 565809,
+                    "calories": 129.92,
+                    "carbohydrates": 13.0004,
+                    "fat": 7.9996,
+                    "protein": 4.0012
+                },
+                "pasta toscana": {
+                    "servingSize": 56.0,
+                    "foodName": "pasta toscana",
+                    "fdcID": 526023,
+                    "calories": 210.0,
+                    "carbohydrates": 40.9976,
+                    "fat": 1.0024,
+                    "protein": 7.0
+                },
+                "cracker barrel, steak fries": {
+                    "servingSize": 198.0,
+                    "foodName": "cracker barrel, steak fries",
+                    "fdcID": 167669,
+                    "calories": 1068.0,
+                    "carbohydrates": 30.87,
+                    "fat": 13.18,
+                    "protein": 3.26
+                },
+                "crepes": {
+                    "servingSize": 40.0,
+                    "foodName": "crepes",
+                    "fdcID": 1242694,
+                    "calories": 80.0,
+                    "carbohydrates": 10.0,
+                    "fat": 2.5,
+                    "protein": 4.0
+                },
+                "sausage": {
+                    "servingSize": 91.0,
+                    "foodName": "sausage",
+                    "fdcID": 466192,
+                    "calories": 180.18,
+                    "carbohydrates": 7.9989,
+                    "fat": 10.0009,
+                    "protein": 14.9968
+                },
+                "honey ham": {
+                    "servingSize": 35.0,
+                    "foodName": "honey ham",
+                    "fdcID": 1255239,
+                    "calories": 50.05,
+                    "carbohydrates": 2.9995,
+                    "fat": 1.5015,
+                    "protein": 5.0015
+                },
+                "chicken, chicken roll, roasted": {
+                    "servingSize": 85.0,
+                    "foodName": "chicken, chicken roll, roasted",
+                    "fdcID": 1098576,
+                    "calories": 164.0,
+                    "carbohydrates": 0.0,
+                    "fat": 6.33,
+                    "protein": 26.68
+                },
+                "egg white omelette": {
+                    "servingSize": 227.0,
+                    "foodName": "egg white omelette",
+                    "fdcID": 566054,
+                    "calories": 220.19,
+                    "carbohydrates": 11.0095,
+                    "fat": 8.9892,
+                    "protein": 18.0011
+                },
+                "tofu yogurt": {
+                    "servingSize": 262.0,
+                    "foodName": "tofu yogurt",
+                    "fdcID": 167722,
+                    "calories": 394.0,
+                    "carbohydrates": 15.96,
+                    "fat": 1.8,
+                    "protein": 3.5
+                },
+                "sausage biscuit": {
+                    "servingSize": 101.0,
+                    "foodName": "sausage biscuit",
+                    "fdcID": 461531,
+                    "calories": 330.27,
+                    "carbohydrates": 32.9967,
+                    "fat": 17.9982,
+                    "protein": 9.999
+                },
+                "banana bread": {
+                    "servingSize": 57.0,
+                    "foodName": "banana bread",
+                    "fdcID": 1271239,
+                    "calories": 239.97,
+                    "carbohydrates": 38.9994,
+                    "fat": 9.0003,
+                    "protein": 2.9982
+                },
+                "french onion soup": {
+                    "servingSize": 285.0,
+                    "foodName": "french onion soup",
+                    "fdcID": 1281090,
+                    "calories": 219.45,
+                    "carbohydrates": 16.986,
+                    "fat": 11.001,
+                    "protein": 13.9935
+                },
+                "lomi salmon": {
+                    "servingSize": 117.0,
+                    "foodName": "lomi salmon",
+                    "fdcID": 1099722,
+                    "calories": 60.0,
+                    "carbohydrates": 3.31,
+                    "fat": 1.86,
+                    "protein": 7.55
+                },
+                "croissant sandwich": {
+                    "servingSize": 128.0,
+                    "foodName": "croissant sandwich",
+                    "fdcID": 1279953,
+                    "calories": 450.56,
+                    "carbohydrates": 28.0064,
+                    "fat": 32.0,
+                    "protein": 10.9952
+                },
+                "waffles": {
+                    "servingSize": 64.0,
+                    "foodName": "waffles",
+                    "fdcID": 565771,
+                    "calories": 240.0,
+                    "carbohydrates": 32.9984,
+                    "fat": 11.0016,
+                    "protein": 3.0016
+                },
+                "pork hash": {
+                    "servingSize": 142.0,
+                    "foodName": "pork hash",
+                    "fdcID": 1099630,
+                    "calories": 185.0,
+                    "carbohydrates": 1.89,
+                    "fat": 13.65,
+                    "protein": 12.96
+                },
+                "roasted corn": {
+                    "servingSize": 83.0,
+                    "foodName": "roasted corn",
+                    "fdcID": 1363607,
+                    "calories": 69.72,
+                    "carbohydrates": 16.0024,
+                    "fat": 2.9963,
+                    "protein": 2.9963
+                },
+                "cheese, goat": {
+                    "servingSize": 21.0,
+                    "foodName": "cheese, goat",
+                    "fdcID": 1098014,
+                    "calories": 364.0,
+                    "carbohydrates": 0.12,
+                    "fat": 29.84,
+                    "protein": 21.58
+                },
+                "chicken salad sandwich": {
+                    "servingSize": 142.0,
+                    "foodName": "chicken salad sandwich",
+                    "fdcID": 1268349,
+                    "calories": 349.32,
+                    "carbohydrates": 33.0008,
+                    "fat": 18.9996,
+                    "protein": 14.0012
+                },
+                "eggplant dip": {
+                    "servingSize": 60.0,
+                    "foodName": "eggplant dip",
+                    "fdcID": 1103638,
+                    "calories": 162.0,
+                    "carbohydrates": 9.63,
+                    "fat": 13.25,
+                    "protein": 4.25
+                },
+                "chicken quesadilla": {
+                    "servingSize": 113.0,
+                    "foodName": "chicken quesadilla",
+                    "fdcID": 1356453,
+                    "calories": 169.5,
+                    "carbohydrates": 16.9952,
+                    "fat": 6.0003,
+                    "protein": 12.0006
+                },
+                "tuna salad": {
+                    "servingSize": 100.0,
+                    "foodName": "tuna salad",
+                    "fdcID": 1263090,
+                    "calories": 270.0,
+                    "carbohydrates": 9.0,
+                    "fat": 22.0,
+                    "protein": 11.0
+                },
+                "pasta salad": {
+                    "servingSize": 40.0,
+                    "foodName": "pasta salad",
+                    "fdcID": 1198493,
+                    "calories": 140.0,
+                    "carbohydrates": 29.0,
+                    "fat": 0.648,
+                    "protein": 5.0
+                },
+                "fish, tuna salad": {
+                    "servingSize": 205.0,
+                    "foodName": "fish, tuna salad",
+                    "fdcID": 175160,
+                    "calories": 782.0,
+                    "carbohydrates": 9.41,
+                    "fat": 9.26,
+                    "protein": 16.04
+                },
+                "leek soup, cream of, prepared with milk": {
+                    "servingSize": 310.0,
+                    "foodName": "leek soup, cream of, prepared with milk",
+                    "fdcID": 1103706,
+                    "calories": 69.0,
+                    "carbohydrates": 7.64,
+                    "fat": 3.1,
+                    "protein": 2.77
+                },
+                "pumpkin soup": {
+                    "servingSize": 250.0,
+                    "foodName": "pumpkin soup",
+                    "fdcID": 1219922,
+                    "calories": 90.0,
+                    "carbohydrates": 16.0,
+                    "fat": 2.5,
+                    "protein": 1.0
+                },
+                "artificial chicken porridge": {
+                    "servingSize": 120.0,
+                    "foodName": "artificial chicken porridge",
+                    "fdcID": 1305871,
+                    "calories": 300.0,
+                    "carbohydrates": 56.004,
+                    "fat": 5.004,
+                    "protein": 8.004
+                },
+                "blueberry pancakes": {
+                    "servingSize": 62.0,
+                    "foodName": "blueberry pancakes",
+                    "fdcID": 1349517,
+                    "calories": 120.28,
+                    "carbohydrates": 24.9984,
+                    "fat": 0.9982,
+                    "protein": 2.0026
+                }
+            }
+        },
+        "Vegan": {
+            "Breakfast": {
+                "risotto": {
+                    "servingSize": 70.0,
+                    "foodName": "risotto",
+                    "fdcID": 777970,
+                    "calories": 109.9,
+                    "carbohydrates": 75.999,
+                    "fat": 1.001,
+                    "protein": 9.002
+                },
+                "oatmeal": {
+                    "servingSize": 60.0,
+                    "foodName": "oatmeal",
+                    "fdcID": 573252,
+                    "calories": 220.2,
+                    "carbohydrates": 37.998,
+                    "fat": 7.002,
+                    "protein": 7.002
+                },
+                "instant oats": {
+                    "servingSize": 40.0,
+                    "foodName": "instant oats",
+                    "fdcID": 1287975,
+                    "calories": 140.0,
+                    "carbohydrates": 23.0,
+                    "fat": 3.0,
+                    "protein": 5.0
+                },
+                "avocado dressing": {
+                    "servingSize": 31.0,
+                    "foodName": "avocado dressing",
+                    "fdcID": 1103883,
+                    "calories": 427.0,
+                    "carbohydrates": 7.36,
+                    "fat": 43.33,
+                    "protein": 1.9
+                },
+                "beet salad": {
+                    "servingSize": 227.0,
+                    "foodName": "beet salad",
+                    "fdcID": 531096,
+                    "calories": 211.11,
+                    "carbohydrates": 24.9927,
+                    "fat": 12.0083,
+                    "protein": 2.9964
+                },
+                "quinoa": {
+                    "servingSize": 140.0,
+                    "foodName": "quinoa",
+                    "fdcID": 378716,
+                    "calories": 149.8,
+                    "carbohydrates": 28.0,
+                    "fat": 2.506,
+                    "protein": 4.004
+                },
+                "pickles, cucumber, dill or kosher dill": {
+                    "servingSize": 40.4,
+                    "foodName": "pickles, cucumber, dill or kosher dill",
+                    "fdcID": 324653,
+                    "calories": 50.0,
+                    "carbohydrates": 1.99,
+                    "fat": 0.43,
+                    "protein": 0.48
+                },
+                "onions, red, raw": {
+                    "servingSize": 197.0,
+                    "foodName": "onions, red, raw",
+                    "fdcID": 790577,
+                    "calories": 186.0,
+                    "carbohydrates": 9.93,
+                    "fat": 0.1,
+                    "protein": 0.94
+                },
+                "stuffed green pepper, puerto rican style": {
+                    "servingSize": 250.0,
+                    "foodName": "stuffed green pepper, puerto rican style",
+                    "fdcID": 1099472,
+                    "calories": 161.0,
+                    "carbohydrates": 15.56,
+                    "fat": 7.23,
+                    "protein": 8.63
+                },
+                "apple": {
+                    "servingSize": 240.0,
+                    "foodName": "apple",
+                    "fdcID": 1356023,
+                    "calories": 110.4,
+                    "carbohydrates": 28.008,
+                    "fat": 0.0,
+                    "protein": 0.0
+                },
+                "pear, raw": {
+                    "servingSize": 180.0,
+                    "foodName": "pear, raw",
+                    "fdcID": 1102682,
+                    "calories": 57.0,
+                    "carbohydrates": 15.23,
+                    "fat": 0.14,
+                    "protein": 0.36
+                },
+                "beverages, v8 splash smoothies, strawberry banana": {
+                    "servingSize": 245.0,
+                    "foodName": "beverages, v8 splash smoothies, strawberry banana",
+                    "fdcID": 174829,
+                    "calories": 154.0,
+                    "carbohydrates": 8.16,
+                    "fat": 0.0,
+                    "protein": 1.22
+                },
+                "vegetable smoothie": {
+                    "servingSize": 324.0,
+                    "foodName": "vegetable smoothie",
+                    "fdcID": 1103820,
+                    "calories": 88.0,
+                    "carbohydrates": 6.06,
+                    "fat": 6.53,
+                    "protein": 2.76
+                },
+                "fruit bowl": {
+                    "servingSize": 30.0,
+                    "foodName": "fruit bowl",
+                    "fdcID": 1377310,
+                    "calories": 110.1,
+                    "carbohydrates": 27.999,
+                    "fat": 0.0,
+                    "protein": 0.0
+                },
+                "split pea soup": {
+                    "servingSize": 312.0,
+                    "foodName": "split pea soup",
+                    "fdcID": 1100483,
+                    "calories": 61.0,
+                    "carbohydrates": 9.88,
+                    "fat": 1.09,
+                    "protein": 3.2
+                },
+                "lentil soup": {
+                    "servingSize": 245.0,
+                    "foodName": "lentil soup",
+                    "fdcID": 1306864,
+                    "calories": 178.85,
+                    "carbohydrates": 17.003,
+                    "fat": 11.0005,
+                    "protein": 4.998
+                },
+                "lima beans, nfs": {
+                    "servingSize": 92.0,
+                    "foodName": "lima beans, nfs",
+                    "fdcID": 1100383,
+                    "calories": 164.0,
+                    "carbohydrates": 19.4,
+                    "fat": 6.86,
+                    "protein": 7.25
+                },
+                "black bean salad": {
+                    "servingSize": 116.0,
+                    "foodName": "black bean salad",
+                    "fdcID": 1100410,
+                    "calories": 94.0,
+                    "carbohydrates": 12.61,
+                    "fat": 3.85,
+                    "protein": 3.08
+                },
+                "broccoli slaw salad ": {
+                    "servingSize": 93.0,
+                    "foodName": "broccoli slaw salad ",
+                    "fdcID": 1103384,
+                    "calories": 119.0,
+                    "carbohydrates": 10.59,
+                    "fat": 8.12,
+                    "protein": 2.13
+                },
+                "brunswick stew": {
+                    "servingSize": 182.0,
+                    "foodName": "brunswick stew",
+                    "fdcID": 1099583,
+                    "calories": 119.0,
+                    "carbohydrates": 7.32,
+                    "fat": 5.03,
+                    "protein": 11.26
+                },
+                "pakora": {
+                    "servingSize": 48.0,
+                    "foodName": "pakora",
+                    "fdcID": 1103656,
+                    "calories": 124.0,
+                    "carbohydrates": 16.24,
+                    "fat": 4.77,
+                    "protein": 4.92
+                },
+                "cabbage, kimchi": {
+                    "servingSize": 150.0,
+                    "foodName": "cabbage, kimchi",
+                    "fdcID": 170392,
+                    "calories": 65.0,
+                    "carbohydrates": 2.4,
+                    "fat": 0.5,
+                    "protein": 1.1
+                },
+                "jackfruit, raw": {
+                    "servingSize": 165.0,
+                    "foodName": "jackfruit, raw",
+                    "fdcID": 174687,
+                    "calories": 397.0,
+                    "carbohydrates": 23.25,
+                    "fat": 0.64,
+                    "protein": 1.72
+                },
+                "spinach soup": {
+                    "servingSize": 306.0,
+                    "foodName": "spinach soup",
+                    "fdcID": 1103190,
+                    "calories": 30.0,
+                    "carbohydrates": 2.88,
+                    "fat": 0.98,
+                    "protein": 2.92
+                },
+                "miso soup": {
+                    "servingSize": 10.0,
+                    "foodName": "miso soup",
+                    "fdcID": 1205411,
+                    "calories": 35.0,
+                    "carbohydrates": 4.0,
+                    "fat": 1.0,
+                    "protein": 2.0
+                },
+                "chinese broccoli": {
+                    "servingSize": 85.0,
+                    "foodName": "chinese broccoli",
+                    "fdcID": 1256121,
+                    "calories": 34.85,
+                    "carbohydrates": 7.004,
+                    "fat": 0.0,
+                    "protein": 1.9975
+                }
+            }
+        }
+    }
+}

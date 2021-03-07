@@ -1,0 +1,588 @@
+{
+    "Recipes": {
+        "Nonvegan": {
+            "Lunch": {
+                "shrimp and grits": {
+                    "servingSize": 204.0,
+                    "foodName": "shrimp and grits",
+                    "fdcID": 1363013,
+                    "calories": 299.88,
+                    "carbohydrates": 19.992,
+                    "fat": 16.9932,
+                    "protein": 17.9928
+                },
+                "chicken, chicken roll, roasted": {
+                    "servingSize": 85.0,
+                    "foodName": "chicken, chicken roll, roasted",
+                    "fdcID": 1098576,
+                    "calories": 164.0,
+                    "carbohydrates": 0.0,
+                    "fat": 6.33,
+                    "protein": 26.68
+                },
+                "taco or tostada with chicken": {
+                    "servingSize": 172.0,
+                    "foodName": "taco or tostada with chicken",
+                    "fdcID": 1101897,
+                    "calories": 255.0,
+                    "carbohydrates": 20.39,
+                    "fat": 13.9,
+                    "protein": 12.75
+                },
+                "cape cod": {
+                    "servingSize": 225.0,
+                    "foodName": "cape cod",
+                    "fdcID": 1104409,
+                    "calories": 98.0,
+                    "carbohydrates": 10.18,
+                    "fat": 0.08,
+                    "protein": 0.0
+                },
+                "pork steak or cutlet, fried, lean and fat eaten": {
+                    "servingSize": 85.0,
+                    "foodName": "pork steak or cutlet, fried, lean and fat eaten",
+                    "fdcID": 1098270,
+                    "calories": 239.0,
+                    "carbohydrates": 0.06,
+                    "fat": 15.86,
+                    "protein": 22.96
+                },
+                "carnitas burrito": {
+                    "servingSize": 142.0,
+                    "foodName": "carnitas burrito",
+                    "fdcID": 1264590,
+                    "calories": 349.32,
+                    "carbohydrates": 45.9938,
+                    "fat": 9.9968,
+                    "protein": 16.9974
+                },
+                "dressing with oysters": {
+                    "servingSize": 80.0,
+                    "foodName": "dressing with oysters",
+                    "fdcID": 1102131,
+                    "calories": 189.0,
+                    "carbohydrates": 18.37,
+                    "fat": 10.75,
+                    "protein": 4.96
+                },
+                "hotdog": {
+                    "servingSize": 45.0,
+                    "foodName": "hotdog",
+                    "fdcID": 475236,
+                    "calories": 109.8,
+                    "carbohydrates": 1.998,
+                    "fat": 9.0,
+                    "protein": 4.0005
+                },
+                "pulled pork": {
+                    "servingSize": 59.0,
+                    "foodName": "pulled pork",
+                    "fdcID": 377934,
+                    "calories": 90.27,
+                    "carbohydrates": 12.0006,
+                    "fat": 2.0001,
+                    "protein": 6.0003
+                },
+                "fried rice": {
+                    "servingSize": 312.0,
+                    "foodName": "fried rice",
+                    "fdcID": 1318802,
+                    "calories": 530.4,
+                    "carbohydrates": 84.9888,
+                    "fat": 10.0152,
+                    "protein": 23.9928
+                },
+                "chicken noodle soup": {
+                    "servingSize": 240.0,
+                    "foodName": "chicken noodle soup",
+                    "fdcID": 1200585,
+                    "calories": 79.2,
+                    "carbohydrates": 10.992,
+                    "fat": 2.496,
+                    "protein": 4.008
+                },
+                "clam chowder": {
+                    "servingSize": 121.0,
+                    "foodName": "clam chowder",
+                    "fdcID": 1309335,
+                    "calories": 79.86,
+                    "carbohydrates": 12.0032,
+                    "fat": 1.5004,
+                    "protein": 4.9973
+                },
+                "california roll": {
+                    "servingSize": 142.0,
+                    "foodName": "california roll",
+                    "fdcID": 644938,
+                    "calories": 170.4,
+                    "carbohydrates": 26.9942,
+                    "fat": 4.0044,
+                    "protein": 6.0066
+                },
+                "turkey sandwich": {
+                    "servingSize": 151.0,
+                    "foodName": "turkey sandwich",
+                    "fdcID": 1306728,
+                    "calories": 309.55,
+                    "carbohydrates": 39.9999,
+                    "fat": 4.9981,
+                    "protein": 20.0075
+                },
+                "chowmein noodles": {
+                    "servingSize": 57.0,
+                    "foodName": "chowmein noodles",
+                    "fdcID": 1305712,
+                    "calories": 279.87,
+                    "carbohydrates": 34.0005,
+                    "fat": 13.0017,
+                    "protein": 6.0021
+                },
+                "szechuan beef": {
+                    "servingSize": 163.0,
+                    "foodName": "szechuan beef",
+                    "fdcID": 1099601,
+                    "calories": 105.0,
+                    "carbohydrates": 7.29,
+                    "fat": 5.3,
+                    "protein": 7.08
+                },
+                "roast beef": {
+                    "servingSize": 56.0,
+                    "foodName": "roast beef",
+                    "fdcID": 1171942,
+                    "calories": 80.08,
+                    "carbohydrates": 0.0,
+                    "fat": 3.0016,
+                    "protein": 12.0008
+                },
+                "chiles rellenos, cheese-filled": {
+                    "servingSize": 143.0,
+                    "foodName": "chiles rellenos, cheese-filled",
+                    "fdcID": 1103632,
+                    "calories": 219.0,
+                    "carbohydrates": 6.35,
+                    "fat": 16.86,
+                    "protein": 10.88
+                },
+                "lasagna": {
+                    "servingSize": 226.0,
+                    "foodName": "lasagna",
+                    "fdcID": 1281233,
+                    "calories": 320.92,
+                    "carbohydrates": 28.0014,
+                    "fat": 15.0064,
+                    "protein": 16.9952
+                },
+                "baked chicken": {
+                    "servingSize": 255.0,
+                    "foodName": "baked chicken",
+                    "fdcID": 1346183,
+                    "calories": 239.7,
+                    "carbohydrates": 27.0045,
+                    "fat": 7.0125,
+                    "protein": 18.003
+                },
+                "shrimp scampi": {
+                    "servingSize": 57.0,
+                    "foodName": "shrimp scampi",
+                    "fdcID": 1099271,
+                    "calories": 198.0,
+                    "carbohydrates": 1.76,
+                    "fat": 12.06,
+                    "protein": 19.63
+                },
+                "beef stew": {
+                    "servingSize": 236.0,
+                    "foodName": "beef stew",
+                    "fdcID": 460815,
+                    "calories": 191.16,
+                    "carbohydrates": 16.992,
+                    "fat": 8.9916,
+                    "protein": 8.9916
+                },
+                "chicken wing, stewed": {
+                    "servingSize": 90.0,
+                    "foodName": "chicken wing, stewed",
+                    "fdcID": 1098550,
+                    "calories": 247.0,
+                    "carbohydrates": 0.0,
+                    "fat": 16.69,
+                    "protein": 22.6
+                },
+                "braised beef": {
+                    "servingSize": 280.0,
+                    "foodName": "braised beef",
+                    "fdcID": 1281982,
+                    "calories": 260.4,
+                    "carbohydrates": 32.004,
+                    "fat": 7.0,
+                    "protein": 19.012
+                },
+                "cream of mushroom": {
+                    "servingSize": 240.0,
+                    "foodName": "cream of mushroom",
+                    "fdcID": 1218520,
+                    "calories": 110.4,
+                    "carbohydrates": 13.008,
+                    "fat": 6.0,
+                    "protein": 1.992
+                },
+                "beef chili": {
+                    "servingSize": 269.0,
+                    "foodName": "beef chili",
+                    "fdcID": 1281903,
+                    "calories": 390.05,
+                    "carbohydrates": 17.9961,
+                    "fat": 24.9901,
+                    "protein": 23.9948
+                },
+                "soup, chicken mushroom, canned, condensed": {
+                    "servingSize": 124.0,
+                    "foodName": "soup, chicken mushroom, canned, condensed",
+                    "fdcID": 174522,
+                    "calories": 419.0,
+                    "carbohydrates": 11.95,
+                    "fat": 4.84,
+                    "protein": 1.61
+                },
+                "beef stew with potatoes, gravy": {
+                    "servingSize": 189.0,
+                    "foodName": "beef stew with potatoes, gravy",
+                    "fdcID": 1099298,
+                    "calories": 100.0,
+                    "carbohydrates": 7.63,
+                    "fat": 3.51,
+                    "protein": 9.19
+                },
+                "gumbo": {
+                    "servingSize": 235.0,
+                    "foodName": "gumbo",
+                    "fdcID": 1306650,
+                    "calories": 270.25,
+                    "carbohydrates": 7.99,
+                    "fat": 16.9905,
+                    "protein": 21.009
+                },
+                "shrimp risotto": {
+                    "servingSize": 227.0,
+                    "foodName": "shrimp risotto",
+                    "fdcID": 553170,
+                    "calories": 190.68,
+                    "carbohydrates": 22.9951,
+                    "fat": 6.9916,
+                    "protein": 6.9916
+                },
+                "chicken fillet, grilled": {
+                    "servingSize": 100.0,
+                    "foodName": "chicken fillet, grilled",
+                    "fdcID": 1098579,
+                    "calories": 150.0,
+                    "carbohydrates": 2.37,
+                    "fat": 5.81,
+                    "protein": 22.28
+                },
+                "chicken piccata": {
+                    "servingSize": 306.0,
+                    "foodName": "chicken piccata",
+                    "fdcID": 1267805,
+                    "calories": 410.04,
+                    "carbohydrates": 38.0052,
+                    "fat": 13.005,
+                    "protein": 29.988
+                },
+                "chicken nuggets": {
+                    "servingSize": 78.0,
+                    "foodName": "chicken nuggets",
+                    "fdcID": 466946,
+                    "calories": 230.1,
+                    "carbohydrates": 9.9996,
+                    "fat": 16.9962,
+                    "protein": 10.998
+                },
+                "baked potato": {
+                    "servingSize": 114.0,
+                    "foodName": "baked potato",
+                    "fdcID": 1359546,
+                    "calories": 169.86,
+                    "carbohydrates": 18.0006,
+                    "fat": 8.0028,
+                    "protein": 4.0014
+                }
+            }
+        },
+        "Vegan": {
+            "Lunch": {
+                "potato, mashed, nfs": {
+                    "servingSize": 125.0,
+                    "foodName": "potato, mashed, nfs",
+                    "fdcID": 1102992,
+                    "calories": 113.0,
+                    "carbohydrates": 17.6,
+                    "fat": 4.06,
+                    "protein": 2.15
+                },
+                "crackers, sandwich": {
+                    "servingSize": 18.0,
+                    "foodName": "crackers, sandwich",
+                    "fdcID": 1101314,
+                    "calories": 494.0,
+                    "carbohydrates": 58.38,
+                    "fat": 24.54,
+                    "protein": 11.47
+                },
+                "pie, squash": {
+                    "servingSize": 115.0,
+                    "foodName": "pie, squash",
+                    "fdcID": 1101120,
+                    "calories": 191.0,
+                    "carbohydrates": 26.64,
+                    "fat": 8.01,
+                    "protein": 4.0
+                },
+                "pasta, cooked": {
+                    "servingSize": 140.0,
+                    "foodName": "pasta, cooked",
+                    "fdcID": 1101529,
+                    "calories": 157.0,
+                    "carbohydrates": 30.68,
+                    "fat": 0.92,
+                    "protein": 5.76
+                },
+                "pea soup": {
+                    "servingSize": 245.0,
+                    "foodName": "pea soup",
+                    "fdcID": 1194632,
+                    "calories": 178.85,
+                    "carbohydrates": 30.9925,
+                    "fat": 1.0045,
+                    "protein": 12.005
+                },
+                "roasted cauliflower": {
+                    "servingSize": 85.0,
+                    "foodName": "roasted cauliflower",
+                    "fdcID": 1338144,
+                    "calories": 20.4,
+                    "carbohydrates": 4.0035,
+                    "fat": 0.0,
+                    "protein": 1.003
+                },
+                "taco bell, taco salad": {
+                    "servingSize": 533.0,
+                    "foodName": "taco bell, taco salad",
+                    "fdcID": 170736,
+                    "calories": 710.0,
+                    "carbohydrates": 15.1,
+                    "fat": 9.17,
+                    "protein": 6.69
+                },
+                "ratatouille": {
+                    "servingSize": 108.0,
+                    "foodName": "ratatouille",
+                    "fdcID": 1103617,
+                    "calories": 65.0,
+                    "carbohydrates": 5.74,
+                    "fat": 4.74,
+                    "protein": 1.1
+                },
+                "chili with beans, microwavable bowls": {
+                    "servingSize": 244.0,
+                    "foodName": "chili with beans, microwavable bowls",
+                    "fdcID": 172110,
+                    "calories": 419.0,
+                    "carbohydrates": 10.88,
+                    "fat": 3.68,
+                    "protein": 5.85
+                },
+                "peruvian beans, from dried": {
+                    "servingSize": 92.0,
+                    "foodName": "peruvian beans, from dried",
+                    "fdcID": 1100402,
+                    "calories": 191.0,
+                    "carbohydrates": 23.49,
+                    "fat": 7.51,
+                    "protein": 8.51
+                },
+                "teriyaki tofu with bok choy & sticky black rice": {
+                    "servingSize": 184.0,
+                    "foodName": "teriyaki tofu with bok choy & sticky black rice",
+                    "fdcID": 1376112,
+                    "calories": 340.4,
+                    "carbohydrates": 57.0032,
+                    "fat": 8.9976,
+                    "protein": 11.9968
+                },
+                "mujadara lentil": {
+                    "servingSize": 28.0,
+                    "foodName": "mujadara lentil",
+                    "fdcID": 518855,
+                    "calories": 82.88,
+                    "carbohydrates": 0.0,
+                    "fat": 2.6012,
+                    "protein": 4.4996
+                },
+                "pita chips": {
+                    "servingSize": 60.0,
+                    "foodName": "pita chips",
+                    "fdcID": 1101359,
+                    "calories": 457.0,
+                    "carbohydrates": 68.26,
+                    "fat": 15.2,
+                    "protein": 11.79
+                },
+                "fried cauliflower": {
+                    "servingSize": 43.0,
+                    "foodName": "fried cauliflower",
+                    "fdcID": 1103631,
+                    "calories": 215.0,
+                    "carbohydrates": 21.68,
+                    "fat": 12.74,
+                    "protein": 3.9
+                },
+                "peppers, red, cooked": {
+                    "servingSize": 78.0,
+                    "foodName": "peppers, red, cooked",
+                    "fdcID": 1103562,
+                    "calories": 50.0,
+                    "carbohydrates": 6.09,
+                    "fat": 2.94,
+                    "protein": 1.01
+                },
+                "sweet potato": {
+                    "servingSize": 28.0,
+                    "foodName": "sweet potato",
+                    "fdcID": 1368985,
+                    "calories": 140.0,
+                    "carbohydrates": 16.9988,
+                    "fat": 7.0,
+                    "protein": 0.9996
+                },
+                "fried mushrooms": {
+                    "servingSize": 70.0,
+                    "foodName": "fried mushrooms",
+                    "fdcID": 1103642,
+                    "calories": 216.0,
+                    "carbohydrates": 21.26,
+                    "fat": 12.79,
+                    "protein": 4.6
+                },
+                "beet salad": {
+                    "servingSize": 227.0,
+                    "foodName": "beet salad",
+                    "fdcID": 531096,
+                    "calories": 211.11,
+                    "carbohydrates": 24.9927,
+                    "fat": 12.0083,
+                    "protein": 2.9964
+                },
+                "turnip greens and turnips, frozen, unprepared": {
+                    "servingSize": 284.0,
+                    "foodName": "turnip greens and turnips, frozen, unprepared",
+                    "fdcID": 170470,
+                    "calories": 90.0,
+                    "carbohydrates": 3.39,
+                    "fat": 0.19,
+                    "protein": 2.46
+                },
+                "cioppino base": {
+                    "servingSize": 113.0,
+                    "foodName": "cioppino base",
+                    "fdcID": 483298,
+                    "calories": 70.06,
+                    "carbohydrates": 8.0004,
+                    "fat": 8.0004,
+                    "protein": 2.0001
+                },
+                "rolls, french": {
+                    "servingSize": 38.0,
+                    "foodName": "rolls, french",
+                    "fdcID": 172795,
+                    "calories": 1159.0,
+                    "carbohydrates": 50.2,
+                    "fat": 4.3,
+                    "protein": 8.6
+                },
+                "sweet potato fries": {
+                    "servingSize": 84.0,
+                    "foodName": "sweet potato fries",
+                    "fdcID": 1255408,
+                    "calories": 150.36,
+                    "carbohydrates": 23.9988,
+                    "fat": 4.998,
+                    "protein": 0.9996
+                },
+                "potato pancakes": {
+                    "servingSize": 22.0,
+                    "foodName": "potato pancakes",
+                    "fdcID": 170092,
+                    "calories": 1123.0,
+                    "carbohydrates": 27.81,
+                    "fat": 14.76,
+                    "protein": 6.08
+                },
+                "hummus": {
+                    "servingSize": 28.0,
+                    "foodName": "hummus",
+                    "fdcID": 447071,
+                    "calories": 59.92,
+                    "carbohydrates": 7.9996,
+                    "fat": 2.5004,
+                    "protein": 2.9988
+                },
+                "chickpeas, nfs": {
+                    "servingSize": 92.0,
+                    "foodName": "chickpeas, nfs",
+                    "fdcID": 1100429,
+                    "calories": 210.0,
+                    "carbohydrates": 25.48,
+                    "fat": 8.91,
+                    "protein": 8.23
+                },
+                "blackeyed peas": {
+                    "servingSize": 130.0,
+                    "foodName": "blackeyed peas",
+                    "fdcID": 1196043,
+                    "calories": 100.1,
+                    "carbohydrates": 16.003,
+                    "fat": 0.494,
+                    "protein": 7.995
+                },
+                "falafel": {
+                    "servingSize": 28.0,
+                    "foodName": "falafel",
+                    "fdcID": 1100423,
+                    "calories": 509.0,
+                    "carbohydrates": 29.01,
+                    "fat": 41.16,
+                    "protein": 8.24
+                },
+                "vegetarian chili": {
+                    "servingSize": 245.0,
+                    "foodName": "vegetarian chili",
+                    "fdcID": 1266267,
+                    "calories": 129.85,
+                    "carbohydrates": 23.0055,
+                    "fat": 2.499,
+                    "protein": 6.0025
+                },
+                "noodles, japanese, soba, cooked": {
+                    "servingSize": 114.0,
+                    "foodName": "noodles, japanese, soba, cooked",
+                    "fdcID": 168907,
+                    "calories": 414.0,
+                    "carbohydrates": 21.44,
+                    "fat": 0.1,
+                    "protein": 5.06
+                },
+                "brussels sprouts, raw": {
+                    "servingSize": 45.0,
+                    "foodName": "brussels sprouts, raw",
+                    "fdcID": 1103340,
+                    "calories": 43.0,
+                    "carbohydrates": 8.95,
+                    "fat": 0.3,
+                    "protein": 3.38
+                }
+            }
+        }
+    }
+}
