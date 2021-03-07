@@ -96,11 +96,6 @@ public class MainFragment extends Fragment {
 
     public void matching(final Integer steps, boolean less_possible, final int recur_counter) {
 
-//        food_list.add(new Food("sample food 1", 723.5,
-//                456.3, 123.2, 131.3, 55.1));
-//        food_list.add(new Food("sample food 2", 312.1,
-//                143.0, 423.1, 771.3, 21.1));
-
         double proper_calorie = MatchingUtils.caloriePerMeal(User.getGender(),
                 User.getHeight(), User.getWeight(), User.getBirthyear(), steps);
 
@@ -138,7 +133,7 @@ public class MainFragment extends Fragment {
                     if (recur_counter < 3) {
                         matching(steps, true, recur_counter+1);
                     } else {
-                        Toast.makeText(getActivity(), "No proper food found!", Toast.LENGTH_LONG).show(); // should never happened
+                        Toast.makeText(getActivity(), "No proper food found!", Toast.LENGTH_LONG).show(); // should never happen
                     }
                 }
             }
