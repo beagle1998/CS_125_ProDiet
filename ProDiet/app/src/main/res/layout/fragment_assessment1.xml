@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
     <TextView
         android:id="@+id/assessment_title2"
@@ -26,83 +27,78 @@
     <view
         android:id="@+id/pieChart"
         class="com.github.mikephil.charting.charts.PieChart"
-        android:layout_width="330dp"
-        android:layout_height="183dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="410dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/assessment_info" />
+
+    <TextView
+        android:id="@+id/assessment_info"
+        android:layout_width="395dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/assessment_title2" />
 
     <view
-        android:id="@+id/STEPChart"
-        class="com.github.mikephil.charting.charts.BarChart"
-        android:layout_width="334dp"
-        android:layout_height="101dp"
-        android:layout_marginTop="65dp"
+        android:id="@+id/BMIChart"
+        class="com.github.mikephil.charting.charts.HorizontalBarChart"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result" />
+        app:layout_constraintTop_toBottomOf="@+id/pieChart" />
 
     <TextView
-        android:id="@+id/result"
-        android:layout_width="342dp"
-        android:layout_height="61dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/BMIStatus"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:gravity="right"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pieChart" />
+
+    <TextView
+        android:id="@+id/BMIResult"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="68dp"
+        android:gravity="left"
+        android:textAllCaps="true"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/BMIStatus"
         app:layout_constraintTop_toBottomOf="@+id/pieChart" />
 
     <TextView
         android:id="@+id/BMI"
         android:layout_width="54dp"
         android:layout_height="41dp"
+        android:layout_marginTop="28dp"
         android:text="BMI"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/BMIChart"
+        android:textColor="@color/colorText"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/STEPChart"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="77dp"
-        android:layout_height="53dp"
-        android:text="Steps"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/STEPChart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/result"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="107dp"
-        android:layout_height="43dp"
-        android:textAllCaps="true"
-        android:textSize="30sp"
-        android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/BMIChart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BMI"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <view
-        android:id="@+id/BMIChart"
-        class="com.github.mikephil.charting.charts.HorizontalBarChart"
-        android:layout_width="340dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="88dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/STEPChart" />
+        app:layout_constraintTop_toBottomOf="@+id/pieChart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
