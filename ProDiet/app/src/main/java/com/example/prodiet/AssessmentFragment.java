@@ -81,6 +81,8 @@ public class AssessmentFragment extends Fragment {
                     Map<?,?> history_map = (Map)dataSnapshot.getValue();
                     implementPieChart(history_map);
 //                        history_map.clear();
+                } else {
+                    Toast.makeText(getActivity(), "You don't have any food history yet!\n(no chart data available)", Toast.LENGTH_LONG).show();
                 }
             }
             @Override
