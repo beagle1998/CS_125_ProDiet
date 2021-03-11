@@ -2,6 +2,11 @@
     "rules" : {
         ".read": true,
         ".write": true,
+        "History" : {
+            "$uid" : {
+                ".indexOn": ".value"
+            }
+        },
         "Recipes" : {
             "Vegan" : {
                 "Breakfast" : {
