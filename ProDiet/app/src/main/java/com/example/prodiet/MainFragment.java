@@ -36,6 +36,9 @@ public class MainFragment extends Fragment {
     private ListView main_recommend;
     private FoodListViewAdapter adapter;
 
+    /**
+     * Return fragment's view
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -43,7 +46,9 @@ public class MainFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
-
+    /**
+     * Give user food recommendation after creating the fragment's view
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
@@ -52,7 +57,6 @@ public class MainFragment extends Fragment {
         main_recommend = getView().findViewById(R.id.main_recommend);
 
         main_title.setText("Hello, "+User.getUsername());
-
 
         main_get.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +98,9 @@ public class MainFragment extends Fragment {
     }
 
 
+    /**
+     * Combine user's personal information, activity level, and current time to match food items in Firebase
+     */
     public void matching(final Integer steps, boolean less_possible, final int recur_counter) {
 
         double proper_calorie = MatchingUtils.caloriePerMeal(User.getGender(),
@@ -145,6 +152,10 @@ public class MainFragment extends Fragment {
     }
 
 
+    /**
+     * Check user's food choice history in Firebase,
+     * set food selection frequency to 1 if not exists, otherwise increment it by 1
+     */
     public void feedback(final Food food) {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         fb_ref.child("History/"+User.getUsername()+"/"+food.getFoodName()).addListenerForSingleValueEvent(new ValueEventListener() {
@@ -160,6 +171,10 @@ public class MainFragment extends Fragment {
         });
     }
 
+
+    /**
+     * Set food selection frequency to a specified number
+     */
     public void addHistory(Food food, Long freq) {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         fb_ref.child("History/"+User.getUsername()+"/"+food.getFoodName()).setValue(freq, new DatabaseReference.CompletionListener() {
@@ -174,6 +189,11 @@ public class MainFragment extends Fragment {
         });
     }
 
+
+    /**
+     * Retrieve food choice history from Firebase,
+     * then rank food items based on the history and nutritional value
+     */
     public void ranking() {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         fb_ref.child("History/"+User.getUsername()).addListenerForSingleValueEvent(new ValueEventListener() {

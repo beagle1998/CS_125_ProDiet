@@ -30,6 +30,9 @@ public class ProfileFragment extends Fragment {
     private CheckBox profile_vegan;
     private Button profile_update;
 
+    /**
+     * Return fragment's view
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -37,6 +40,9 @@ public class ProfileFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 
+    /**
+     * Allow user to update user information after creating the fragment's view
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
 
@@ -56,6 +62,10 @@ public class ProfileFragment extends Fragment {
         });
     }
 
+
+    /**
+     * Update user personal information and store the information into Firebase
+     */
     public void updateUser() {
         String height_string = profile_height.getText().toString().trim();
         final Double height = ( height_string.isEmpty() ? User.getHeight() : Double.valueOf(height_string) );
@@ -97,6 +107,10 @@ public class ProfileFragment extends Fragment {
 
     }
 
+
+    /**
+     * Update user information text
+     */
     public void UIUpdate() {
         profile_info.setText(User.profileString());
     }

@@ -7,6 +7,10 @@ import java.util.Map;
 
 public class RankingUtils {
 
+    /**
+     * Sort list of food based on frequency in food choice history
+     * and nutritional value (less fat possible), descending order
+     */
     public static void rankFoodList(ArrayList<Food> food_list, final Map<?, ?> history_map) {
         Collections.sort(food_list, new Comparator<Food>() {
 

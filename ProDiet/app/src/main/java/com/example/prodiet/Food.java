@@ -68,6 +68,9 @@ public class Food {
         this.servingSize = servingSize;
     }
 
+    /**
+     * Return food item's nutritional value as string
+     */
     public String itemString() {
         return String.format("Calories:%.1f Protein:%.1f Carbohydrates:%.1f Fat:%.1f",
                 this.calories, this.protein, this.carbohydrates, this.fat);

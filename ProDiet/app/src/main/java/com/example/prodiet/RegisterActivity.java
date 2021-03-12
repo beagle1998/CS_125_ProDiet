@@ -34,6 +34,9 @@ public class RegisterActivity extends AppCompatActivity {
     private Button register_register;
     private Button register_login;
 
+    /**
+     * Allow user to sign up when creating the activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,7 +67,9 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-
+    /**
+     * Get user information from entry boxes and add user information into Firebase if not exists
+     */
     public void registerRegister() {
         final String username = register_username.getText().toString().trim();
         if (username.isEmpty() || username.contains(" ")) {
@@ -135,8 +140,10 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Add user information into Firebase, and jump to MainActivity if success
+     */
     public void addUser() {
-
         HashMap<String, Object> hashMap = new HashMap<>();
         hashMap.put("username", User.getUsername());
         hashMap.put("password", User.getPassword());
@@ -161,7 +168,9 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-
+    /**
+     * Jump to LoginActivity
+     */
     public void registerLogin() {
         Intent intent_login = new Intent(RegisterActivity.this, LoginActivity.class);
         startActivity(intent_login);

@@ -17,6 +17,9 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawer;
 
+    /**
+     * Set up navigation menu when creating the activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +49,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ////
     }
 
-    //// For each individual case navigate to different fragment
+    /**
+     * Navigate to different fragment for each case
+     */
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -73,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
     ////
 
+    /**
+     * Close navigation menu if it is open, otherwise jump back to previous activity
+     */
     @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {

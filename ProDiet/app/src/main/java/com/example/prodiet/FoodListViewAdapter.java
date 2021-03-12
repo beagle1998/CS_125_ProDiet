@@ -20,6 +20,9 @@ public class FoodListViewAdapter extends ArrayAdapter<Food> {
         this.foods = foods;
     }
 
+    /**
+     * Return food item view by list view index
+     */
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {

@@ -48,6 +48,9 @@ public class AssessmentFragment extends Fragment {
     PieDataSet pieDataSet;
     BarData bmiData;
 
+    /**
+     * Return fragment's view
+     */
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -55,6 +58,9 @@ public class AssessmentFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_assessment, container, false);
     }
 
+    /**
+     * Display user's food preferences and BMI (Body Mass Index) status after creating the fragment's view
+     */
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         assessment_info = getView().findViewById(R.id.assessment_info);
@@ -70,7 +76,9 @@ public class AssessmentFragment extends Fragment {
     }
 
 
-
+    /**
+     * Retrieve user's food history from Firebase & display history as preference in the pie chart
+     */
     private void initPieChart() {
         DatabaseReference fb_ref = FirebaseDatabase.getInstance().getReference();
         Query query = fb_ref.child("History/"+User.getUsername()).orderByValue().limitToLast(5);
@@ -93,6 +101,9 @@ public class AssessmentFragment extends Fragment {
     }
 
 
+    /**
+     * Display history as preference in the pie chart
+     */
     private void implementPieChart(Map<?, ?> history_map) {
 
         if (pieEntries == null) {
@@ -122,6 +133,9 @@ public class AssessmentFragment extends Fragment {
     }
 
 
+    /**
+     * Display BMI in the horizontal bar chart
+     */
     private void implementBMIChart() {
         bmiData = new BarData(BMI());
         assessment_BMIChart.setData(bmiData);
@@ -140,6 +154,9 @@ public class AssessmentFragment extends Fragment {
     }
 
 
+    /**
+     * Return user's BMI status as dataset
+     */
     private BarDataSet BMI() {
         ArrayList<BarEntry> bmiEntries = new ArrayList();
 

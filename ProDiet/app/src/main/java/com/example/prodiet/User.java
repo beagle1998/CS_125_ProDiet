@@ -66,6 +66,9 @@ public class User {
         User.vegan = vegan;
     }
 
+    /**
+     * Clear all user information
+     */
     public static void clear() {
         User.username = null;
         User.password = null;
@@ -76,15 +79,24 @@ public class User {
         User.vegan = null;
     }
 
+    /**
+     * Return true if there is no user information available, otherwise return false
+     */
     public static boolean isEmpty() {
         return User.username == null && User.password == null;
     }
 
+    /**
+     * Return partial user information as string (without password)
+     */
     public static String profileString() {
         return String.format("Username: %s\nGender: %s\nHeight: %.1fcm & Weight: %.1fkg\nBirthyear: %d\nVegan: %b",
                 User.username, User.gender, User.height, User.weight, User.birthyear, User.vegan);
     }
 
+    /**
+     * Return partial user information as string (without username, password, vegan)
+     */
     public static String assessmentString() {
         return String.format("Gender: %s\nHeight: %.1fcm\nWeight: %.1fkg\nBirthyear: %d",
                 User.gender, User.height, User.weight, User.birthyear);

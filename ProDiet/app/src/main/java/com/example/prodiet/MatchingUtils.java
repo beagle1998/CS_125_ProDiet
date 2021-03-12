@@ -4,10 +4,16 @@ import java.util.Calendar;
 
 public class MatchingUtils {
 
+    /**
+     * Return BMI (Body Mass Index) based on height and weight
+     */
     public static double calculateBMI(double height, double weight) {
         return (weight / (height * height)) * 10000;
     }
 
+    /**
+     * Return weight status based on height and weight
+     */
     public static String weightStatus(double height, double weight) {
         double bmi = calculateBMI(height, weight);
         if (bmi < 18.5){
@@ -26,6 +32,9 @@ public class MatchingUtils {
         }
     }
 
+    /**
+     * Return idea weight based on gender and height
+     */
     public static double idealWeight(String gender, double height) {
         // Calculated using Devine Equation
         if (gender.equals("male")) {
@@ -50,7 +59,9 @@ public class MatchingUtils {
          *         }**/
     }
 
-
+    /**
+     * Return BMR (Basal Metabolic Rate) based on gender, height, weight, and age
+     */
     public static double calculateBMR(String gender, double height, double weight, int age) {
         // Calculated using Harris-Benedict 1990 Equation
         // Basal Metabolic Rate -> used to calculate calorie per day
@@ -65,6 +76,9 @@ public class MatchingUtils {
         }
     }
 
+    /**
+     * Return activity level based on walking steps
+     */
     static String activity(int steps){
         if (steps <= 5000){
             return "sedentary";
@@ -84,6 +98,9 @@ public class MatchingUtils {
         return "Error in Activity";
     }
 
+    /**
+     * Return calories needed to maintain the same weight based on BMR (Basal Metabolic Rate) and activity level
+     */
     public static double normalCalorie(double bmr, String activity) {
         // Calories needed to maintain same weight
         double activityFactor = 0;
@@ -105,7 +122,10 @@ public class MatchingUtils {
         return bmr * activityFactor;
     }
 
-
+    /**
+     * Return recommended calories per day to reach ideal weight using recommended weight loss rate of one lb per week,
+     * based on gender, height, weight, age, and walking steps
+     */
     public static double actualCalorie(String gender, double height, double weight, int age, Integer steps) {
         // Recommended calories per day to reach ideal weight using recommended weight loss rate of one lb per week or 3500 calories per week
         // 3500 calories per lb but 7700 calories per kg
@@ -134,7 +154,9 @@ public class MatchingUtils {
         }
     }
 
-
+    /**
+     * Return recommended calories based on user's personal information, activity level (steps), and current time
+     */
     public static double caloriePerMeal(String gender, double height, double weight, int birthyear, Integer steps) {
         Calendar now = Calendar.getInstance();
 
@@ -158,7 +180,9 @@ public class MatchingUtils {
         return mealFactor * actualCalorie(gender, height, weight, age, steps);
     }
 
-
+    /**
+     * Return meal type based on current time
+     */
     public static String mealType() {
         int currHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         if (currHour >= 0 && currHour < 12){
@@ -170,12 +194,17 @@ public class MatchingUtils {
         }
     }
 
+    /**
+     * Return food category path
+     */
     public static String categoryPath(boolean vegan) {
         String vegan_string = vegan ? "Vegan" : "Nonvegan";
         return "Recipes/" + vegan_string + "/" + mealType();
     }
 
-
+    /**
+     * Pseudo main function for testing
+     */
     public static void pseudoMain() {
         double weight = 72;
         double height = 178;

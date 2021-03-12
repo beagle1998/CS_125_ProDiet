@@ -26,6 +26,9 @@ public class LoginActivity extends AppCompatActivity {
     private Button login_login;
     private Button login_register;
 
+    /**
+     * Allow user to login when creating the activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +55,10 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Get user information from entry boxes and verify data by communication with Firebase.
+     * and jump to MainActivity if user is verified
+     */
     public void loginLogin() {
         final String username = login_username.getText().toString().trim();
         if (username.isEmpty() || username.contains(" ")) {
@@ -102,6 +109,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Jump to RegisterActivity
+     */
     public void loginRegister() {
         Intent intent_register = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(intent_register);
